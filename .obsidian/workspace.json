@@ -11,14 +11,17 @@
             "id": "440d8382b2821a1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "TEMPLATES.md",
-                "mode": "source",
-                "source": false
+                "file": "日期管理.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "TEMPLATES"
+              "icon": "lucide-layout-dashboard",
+              "title": "日期管理"
             }
           }
         ]
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TEMPLATES.md",
+                "file": "日期管理.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TEMPLATES"
+              "title": "Backlinks for 日期管理"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TEMPLATES.md",
+                "file": "日期管理.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TEMPLATES"
+              "title": "Outgoing links from 日期管理"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES.md",
+                "file": "日期管理.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TEMPLATES"
+              "title": "Outline of 日期管理"
             }
           }
         ]
@@ -173,37 +176,44 @@
   },
   "active": "440d8382b2821a1d",
   "lastOpenFiles": [
-    "CLAUDE.md.tmp.1828.1756698409003",
-    "CLAUDE.md.tmp.1828.1756698403635",
-    "CLAUDE.md.tmp.1828.1756698397914",
-    "OBSIDIAN_RULES.md",
-    "TEMPLATES.md",
-    "10 - COCKPIT/Daily/2025-09-01.md",
+    "10 - COCKPIT/[Canvas - 我的战略指挥中心].canvas",
+    "10 - COCKPIT/今日任务示例.md",
+    "10 - COCKPIT/My Command Center.md",
+    "99 - SYSTEM/Templates/自动化脚本和快捷命令.md",
+    "40 - OPERATIONS/Projects/[仪表盘 - 低价直播间聊天留存系统飞行甲板].canvas",
+    "99 - SYSTEM/Templates/Canvas系统使用指南.md",
+    "99 - SYSTEM/Templates/个人战略指挥中心模板.md",
+    "99 - SYSTEM/Templates/项目飞行仪表盘模板.md",
+    "40 - OPERATIONS/Meetings/2025-09-01-Q4规划周会.md",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md",
     "2025-09-01.md",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD.md",
+    "20 - ATOMS/Models/WBS任务分解法.md",
+    "Dataview测试.md.tmp.1828.1756700029211",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756700024339",
+    "Dataview测试.md",
+    "Dataview测试.md.tmp.1828.1756700019194",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756700008602",
+    "20 - ATOMS/Models/MVP原则.md",
+    "20 - ATOMS/Models/马斯洛需求层次理论.md",
+    "10 - COCKPIT/Daily/2025-09-01.md",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756699849747",
+    "20 - ATOMS/Models/用户体验五要素.md",
+    "20 - ATOMS/Models/5W2H分析法.md",
+    "20 - ATOMS/People/徐威 A.md",
+    "20 - ATOMS/People/徐威 A.md.tmp.1828.1756698997758",
+    "20 - ATOMS/People/徐威 A.md.tmp.1828.1756698994969",
+    "10 - COCKPIT/Daily/2025-09-01.md.tmp.1828.1756698990298",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756698985021",
+    "TEMPLATES.md",
+    "20 - ATOMS/People/徐威 A.md.tmp.1828.1756698911717",
+    "OBSIDIAN_RULES.md",
     "CLAUDE.md",
     "日期管理.md",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md",
-    "10 - COCKPIT/Daily/2025-09-01.md.tmp.1828.1756698130276",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD.md",
     "99 - SYSTEM/Templates/日程处理模板.md",
-    "99 - SYSTEM/Templates/每日笔记模板.md.tmp.1828.1756697963935",
-    "10 - COCKPIT/My Command Center.md",
-    "10 - COCKPIT/今日任务示例.md",
     "99 - SYSTEM/Templates/Schedule Snippets.md",
-    "40 - OPERATIONS/Projects/项目C：利用AI进行周报摘要.md.tmp.1828.1756697572510",
-    "99 - SYSTEM/Templates/Obsidian日程管理系统设置指南.md.tmp.1828.1756697567318",
     "日期管理.canvas",
     "30 - INCUBATOR/Canvases/日程管理.canvas",
-    "99 - SYSTEM/Templates/Obsidian配置完成检查清单.md",
-    "99 - SYSTEM/Templates/人物模板.md",
-    "99 - SYSTEM/Templates/PRD模板.md",
-    "99 - SYSTEM/Templates/Obsidian日程管理系统设置指南.md",
-    "99 - SYSTEM/Templates/自动化脚本和快捷命令.md",
-    "10 - COCKPIT/今日任务示例.md.tmp.1828.1756693736859",
-    "30 - INCUBATOR/MOCs/产品经理思维模型MOC.md",
-    "10 - COCKPIT/My Command Center.md.tmp.1828.1756693724247",
-    "40 - OPERATIONS/Projects/项目C-任务看板.md",
-    "40 - OPERATIONS/Projects/项目C-任务看板.md.tmp.1828.1756693714930",
-    "99 - SYSTEM/Templates/Schedule Snippets.md.tmp.1828.1756693705712"
+    "99 - SYSTEM/Templates/Obsidian配置完成检查清单.md"
   ]
 }
