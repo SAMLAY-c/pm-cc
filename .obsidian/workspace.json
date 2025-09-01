@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "57bc2c8bc6f59535",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d0bd6e0499cc8fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "440d8382b2821a1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEMPLATES.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TEMPLATES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9c13b8a329c500fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9dd066d1e97c8b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6965ff694786276",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4e940fe14fe9013b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d3997d47be12d9c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4a5b0fa07d38d3cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f572e57a504b6122",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bcd618ae122953a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TEMPLATES.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TEMPLATES"
+            }
+          },
+          {
+            "id": "7b375a224af40e8f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TEMPLATES.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TEMPLATES"
+            }
+          },
+          {
+            "id": "95d63ec0a59408de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a71a9c9053c42834",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TEMPLATES.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TEMPLATES"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "440d8382b2821a1d",
+  "lastOpenFiles": [
+    "CLAUDE.md.tmp.1828.1756698409003",
+    "CLAUDE.md.tmp.1828.1756698403635",
+    "CLAUDE.md.tmp.1828.1756698397914",
+    "OBSIDIAN_RULES.md",
+    "TEMPLATES.md",
+    "10 - COCKPIT/Daily/2025-09-01.md",
+    "2025-09-01.md",
+    "CLAUDE.md",
+    "日期管理.md",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md",
+    "10 - COCKPIT/Daily/2025-09-01.md.tmp.1828.1756698130276",
+    "40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD.md",
+    "99 - SYSTEM/Templates/日程处理模板.md",
+    "99 - SYSTEM/Templates/每日笔记模板.md.tmp.1828.1756697963935",
+    "10 - COCKPIT/My Command Center.md",
+    "10 - COCKPIT/今日任务示例.md",
+    "99 - SYSTEM/Templates/Schedule Snippets.md",
+    "40 - OPERATIONS/Projects/项目C：利用AI进行周报摘要.md.tmp.1828.1756697572510",
+    "99 - SYSTEM/Templates/Obsidian日程管理系统设置指南.md.tmp.1828.1756697567318",
+    "日期管理.canvas",
+    "30 - INCUBATOR/Canvases/日程管理.canvas",
+    "99 - SYSTEM/Templates/Obsidian配置完成检查清单.md",
+    "99 - SYSTEM/Templates/人物模板.md",
+    "99 - SYSTEM/Templates/PRD模板.md",
+    "99 - SYSTEM/Templates/Obsidian日程管理系统设置指南.md",
+    "99 - SYSTEM/Templates/自动化脚本和快捷命令.md",
+    "10 - COCKPIT/今日任务示例.md.tmp.1828.1756693736859",
+    "30 - INCUBATOR/MOCs/产品经理思维模型MOC.md",
+    "10 - COCKPIT/My Command Center.md.tmp.1828.1756693724247",
+    "40 - OPERATIONS/Projects/项目C-任务看板.md",
+    "40 - OPERATIONS/Projects/项目C-任务看板.md.tmp.1828.1756693714930",
+    "99 - SYSTEM/Templates/Schedule Snippets.md.tmp.1828.1756693705712"
+  ]
+}
