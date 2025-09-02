@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"company-title","type":"text","text":"公司组织架构图\nCompany Organizational Chart","x":600,"y":50,"width":400,"height":80,"color":"6"},
+		{"id":"haohao","type":"text","text":"浩浩老师\n集团高层\n\n战略决策\n集团资源协调","x":900,"y":180,"width":200,"height":100,"color":"1"},
+		{"id":"product-tech","type":"text","text":"产品与技术中心\nProduct & Tech Center\n\n产品: 钟华港\n技术: 包瑞","x":1000,"y":350,"width":250,"height":100,"color":"4"},
+		{"id":"wang-heqiong","type":"text","text":"王鹤琼\n中台运营\n对接人","x":730,"y":500,"width":180,"height":80,"color":"3"},
+		{"id":"conversion-bases","type":"text","text":"转化基地\n\n长春: 李明, 宗旭杰\n沈阳: 刘文琪, 张安\n哈尔滨: 黄先河\n其他: 韩明曲, 金世杰","x":450,"y":650,"width":220,"height":170,"color":"3"},
+		{"id":"product-team","type":"text","text":"产品团队\n\n• 英超 - 财务数据\n• 高乐 - 招生数据\n• 其他产品人员","x":750,"y":650,"width":200,"height":170,"color":"4"},
+		{"id":"tech-team","type":"text","text":"技术团队\n\n• 彭一辉 - 前端\n• 刘长远 - 数据研发\n• 朋, 秦民 - 后端\n• 杜经理 - 测试\n• 赵世宇 - 运维\n• 胡窄 - 架构","x":1000,"y":650,"width":220,"height":200,"color":"4"},
+		{"id":"other-roles","type":"text","text":"其他关键人员\nOther Key Personnel\n\n• 旭姐 - 业务侧对接\n• 李倩 - 售卖点文档\n• 雅婷, 亚强 - 同事协作\n• 春阳 - 数据需求\n• 刚哥 - 公司前辈","x":600,"y":850,"width":300,"height":120,"color":"5"},
+		{"id":"legend","type":"text","text":"图例 Legend\n\n🔵 高层管理\n🟢 招生业务线\n🟡 转化业务线\n🔴 产品技术中心\n🟣 其他人员","x":50,"y":850,"width":200,"height":190,"color":"6"},
+		{"id":"recruitment-team","type":"text","text":"招生团队\n\n• 孙瑞楠 - 斑马组\n• 陈博林 - 学习业务\n• 高乐 - 招生数据","x":50,"y":650,"width":200,"height":120,"color":"2"},
+		{"id":"wang-shuo","type":"text","text":"王硕\n招生业务线\n负责人","x":20,"y":500,"width":180,"height":80,"color":"2"},
+		{"id":"recruitment-line","type":"text","text":"招生业务线\nRecruitment Business Line\n\n负责人: 王硕","x":180,"y":350,"width":250,"height":100,"color":"2"},
+		{"id":"liu-pengshuo","type":"text","text":"刘鹏硕\n招生业务线\n负责人","x":270,"y":500,"width":180,"height":80,"color":"2"},
+		{"id":"wang-kai","type":"text","text":"王凯\n转化业务线\n总负责人","x":490,"y":500,"width":180,"height":80,"color":"3"},
+		{"id":"bao-rui","type":"text","text":"包瑞\n技术\n总负责人","x":1130,"y":500,"width":180,"height":80,"color":"4"},
+		{"id":"zhong-huagang","type":"text","text":"钟华港\n产品\n总负责人","x":950,"y":500,"width":180,"height":80,"color":"4"},
+		{"id":"conversion-line","type":"text","text":"转化业务线\nConversion Business Line\n\n负责人: 王凯","x":545,"y":350,"width":250,"height":100,"color":"3"},
+		{"id":"chen-pei","type":"text","text":"陈佩 (小郭老师)\n总负责人\n\n管理范围:\n• 招生业务线\n• 转化业务线","x":460,"y":110,"width":280,"height":120,"color":"1"}
+	],
+	"edges":[
+		{"id":"edge-1","fromNode":"chen-pei","fromSide":"bottom","toNode":"recruitment-line","toSide":"top","color":"1"},
+		{"id":"edge-2","fromNode":"chen-pei","fromSide":"bottom","toNode":"conversion-line","toSide":"top","color":"1"},
+		{"id":"edge-3","fromNode":"chen-pei","fromSide":"bottom","toNode":"product-tech","toSide":"top","color":"1"},
+		{"id":"edge-4","fromNode":"recruitment-line","fromSide":"bottom","toNode":"wang-shuo","toSide":"top","color":"2"},
+		{"id":"edge-5","fromNode":"recruitment-line","fromSide":"bottom","toNode":"liu-pengshuo","toSide":"top","color":"2"},
+		{"id":"edge-6","fromNode":"conversion-line","fromSide":"bottom","toNode":"wang-kai","toSide":"top","color":"3"},
+		{"id":"edge-7","fromNode":"conversion-line","fromSide":"bottom","toNode":"wang-heqiong","toSide":"top","color":"3"},
+		{"id":"edge-8","fromNode":"product-tech","fromSide":"bottom","toNode":"zhong-huagang","toSide":"top","color":"4"},
+		{"id":"edge-9","fromNode":"product-tech","fromSide":"bottom","toNode":"bao-rui","toSide":"top","color":"4"},
+		{"id":"edge-10","fromNode":"wang-shuo","fromSide":"bottom","toNode":"recruitment-team","toSide":"top","color":"2"},
+		{"id":"edge-11","fromNode":"wang-kai","fromSide":"bottom","toNode":"conversion-bases","toSide":"top","color":"3"},
+		{"id":"edge-12","fromNode":"zhong-huagang","fromSide":"bottom","toNode":"product-team","toSide":"top","color":"4"},
+		{"id":"edge-13","fromNode":"bao-rui","fromSide":"bottom","toNode":"tech-team","toSide":"top","color":"4"}
+	]
+}

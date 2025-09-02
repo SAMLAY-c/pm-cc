@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1d0bd6e0499cc8fd",
+        "id": "cedb2a093a5f369b",
         "type": "tabs",
         "children": [
           {
-            "id": "440d8382b2821a1d",
+            "id": "bcd83d0ad72c1e5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30 - INCUBATOR/MOCs/AI技术MOC.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AI技术MOC"
-            }
-          },
-          {
-            "id": "068bd9df12390a2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "低价直播间聊天留存系统"
+              "title": "New tab"
             }
           }
         ]
@@ -185,47 +167,53 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "440d8382b2821a1d",
+  "active": "a6965ff694786276",
   "lastOpenFiles": [
-    "20 - ATOMS/Concepts/AI/多模态AI技术.md",
-    "40 - OPERATIONS/Meetings/2025-09-01-Q4规划周会.md",
-    "20 - ATOMS/Concepts/AI",
-    "30 - INCUBATOR/MOCs/AI技术MOC.md",
-    "99 - SYSTEM/Templates/AI技术记录模板.md",
-    "40 - OPERATIONS/Projects/智策AI项目.md",
-    "10 - COCKPIT/Daily/2025-09-01.md",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md",
-    "30 - INCUBATOR/需求评审会方法论系统构想.md.tmp.1828.1756716462888",
-    "30 - INCUBATOR/需求评审会方法论系统构想.md",
-    "30 - INCUBATOR/知识卡片智能体思维碰撞Canvas.md",
-    "30 - INCUBATOR/论点3：双向链接增强知识连接性.md",
-    "30 - INCUBATOR/论点2：智能体能够自动化知识提取.md",
-    "30 - INCUBATOR/论点1：知识卡片可以结构化信息碎片.md",
-    "30 - INCUBATOR/知识卡片智能体核心议题.md",
-    "40 - OPERATIONS/Projects/智能体报错机制项目.md",
-    "日期管理.canvas",
-    "10 - COCKPIT/[Canvas - 我的战略指挥中心].canvas",
-    "10 - COCKPIT/今日任务示例.md",
-    "10 - COCKPIT/My Command Center.md",
-    "99 - SYSTEM/Templates/自动化脚本和快捷命令.md",
-    "40 - OPERATIONS/Projects/[仪表盘 - 低价直播间聊天留存系统飞行甲板].canvas",
-    "99 - SYSTEM/Templates/Canvas系统使用指南.md",
-    "99 - SYSTEM/Templates/个人战略指挥中心模板.md",
-    "99 - SYSTEM/Templates/项目飞行仪表盘模板.md",
-    "2025-09-01.md",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD.md",
-    "20 - ATOMS/Models/WBS任务分解法.md",
-    "Dataview测试.md.tmp.1828.1756700029211",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756700024339",
+    "20 - ATOMS/People/[Canvas - 英超组织关系图].canvas",
+    "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
+    "20 - ATOMS/People/[Canvas - 旭姐组织关系图].canvas",
+    "20 - ATOMS/People/钟华港.md",
+    "20 - ATOMS/People/[Canvas - 王硕组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 包瑞组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 高乐组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 刘长远组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 钟华港组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 王凯组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 彭一辉组织关系图].canvas",
+    "20 - ATOMS/People/[Canvas - 刘鹏硕组织关系图].canvas",
+    "20 - ATOMS/People/宗旭杰.md",
+    "20 - ATOMS/People/李明.md",
+    "20 - ATOMS/People/陈博林.md",
+    "20 - ATOMS/People/包瑞.md",
+    "20 - ATOMS/People/陈佩.md",
+    "20 - ATOMS/People/刚哥.md",
+    "20 - ATOMS/People/刘长远.md",
+    "20 - ATOMS/People/高乐.md",
+    "20 - ATOMS/People/春阳.md",
+    "20 - ATOMS/People/王硕.md",
+    "20 - ATOMS/People/春阳.md.tmp.17170.1756805308492",
+    "20 - ATOMS/People/李倩.md",
+    "20 - ATOMS/People/旭姐.md",
+    "20 - ATOMS/People/王亚强.md",
+    "20 - ATOMS/People/雅婷.md",
+    "20 - ATOMS/People/英超.md",
+    "20 - ATOMS/People/彭一辉.md",
+    "20 - ATOMS/People/王凯.md",
+    "20 - ATOMS/People/王鹤琼.md",
     "Dataview测试.md",
-    "Dataview测试.md.tmp.1828.1756700019194",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756700008602",
-    "20 - ATOMS/Models/MVP原则.md",
-    "20 - ATOMS/Models/马斯洛需求层次理论.md",
-    "40 - OPERATIONS/Projects/低价直播间聊天留存系统.md.tmp.1828.1756699849747",
-    "20 - ATOMS/People/徐威 A.md.tmp.1828.1756698997758",
-    "20 - ATOMS/People/徐威 A.md.tmp.1828.1756698994969",
-    "10 - COCKPIT/Daily/2025-09-01.md.tmp.1828.1756698990298",
-    "30 - INCUBATOR/Canvases/日程管理.canvas"
+    "20 - ATOMS/People/刘文琪.md",
+    "20 - ATOMS/People/孙瑞楠.md",
+    "20 - ATOMS/People/刘鹏硕.md",
+    "20 - ATOMS/People/浩浩老师.md",
+    "CLAUDE.md",
+    "20 - ATOMS/Sources/精益数据分析.md.tmp.17170.1756791747622",
+    "20 - ATOMS/Concepts/能力卡：用户研究.md.tmp.17170.1756791715033",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779641466",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779583836",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779431680",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779406704",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779396735",
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779292913",
+    "10 - COCKPIT/Daily/2025-09-02.md.tmp.2050.1756777845316"
   ]
 }

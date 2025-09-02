@@ -1,0 +1,32 @@
+# Personnel information - keep private
+20 - ATOMS/People/
+
+# Personal and sensitive information
+*.private
+*.sensitive
+*password*
+*secret*
+*key*
+
+# Obsidian cache and temporary files
+.obsidian/
+.trash/
+*.temp
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+dist/
+build/
