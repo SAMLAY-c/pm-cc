@@ -11,10 +11,17 @@
             "id": "bcd83d0ad72c1e5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "30 - INCUBATOR/Canvases/AI产品经理转行学习路径.canvas",
+                "viewState": {
+                  "x": 522.5,
+                  "y": 610,
+                  "zoom": -0.9003209957608858
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "AI产品经理转行学习路径"
             }
           }
         ]
@@ -167,20 +174,30 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a6965ff694786276",
+  "active": "bcd83d0ad72c1e5e",
   "lastOpenFiles": [
-    "20 - ATOMS/People/[Canvas - 英超组织关系图].canvas",
+    "30 - INCUBATOR/Canvases/日程管理.canvas",
+    "AI产品经理转行学习路径.canvas",
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习路径.canvas",
+    "Obsidian Canvas JSON 格式规范.md",
+    "My Command Center#📅-本周计划.md",
     "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
+    "30 - INCUBATOR/Canvases/1.canvas",
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划-simple.canvas",
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas",
+    "30 - INCUBATOR/Canvases/AI产品经理面试准备知识图谱.canvas",
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas.tmp.4612.1756876878141",
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas.backup",
+    "40 - OPERATIONS/Projects/AI产品经理学习进度跟踪系统.md",
+    "40 - OPERATIONS/Projects/AI产品经理面试准备.md",
+    "40 - OPERATIONS/Projects/AI产品经理冲刺上岸计划.md",
+    "Dataview测试.md",
+    "CLAUDE.md",
+    "日期管理.md",
+    "20 - ATOMS/People/[Canvas - 英超组织关系图].canvas",
     "20 - ATOMS/People/[Canvas - 旭姐组织关系图].canvas",
     "20 - ATOMS/People/钟华港.md",
     "20 - ATOMS/People/[Canvas - 王硕组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 包瑞组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 高乐组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 刘长远组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 钟华港组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 王凯组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 彭一辉组织关系图].canvas",
-    "20 - ATOMS/People/[Canvas - 刘鹏硕组织关系图].canvas",
     "20 - ATOMS/People/宗旭杰.md",
     "20 - ATOMS/People/李明.md",
     "20 - ATOMS/People/陈博林.md",
@@ -198,22 +215,12 @@
     "20 - ATOMS/People/雅婷.md",
     "20 - ATOMS/People/英超.md",
     "20 - ATOMS/People/彭一辉.md",
-    "20 - ATOMS/People/王凯.md",
-    "20 - ATOMS/People/王鹤琼.md",
-    "Dataview测试.md",
-    "20 - ATOMS/People/刘文琪.md",
-    "20 - ATOMS/People/孙瑞楠.md",
-    "20 - ATOMS/People/刘鹏硕.md",
-    "20 - ATOMS/People/浩浩老师.md",
-    "CLAUDE.md",
     "20 - ATOMS/Sources/精益数据分析.md.tmp.17170.1756791747622",
     "20 - ATOMS/Concepts/能力卡：用户研究.md.tmp.17170.1756791715033",
     "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779641466",
     "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779583836",
     "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779431680",
     "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779406704",
-    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779396735",
-    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779292913",
-    "10 - COCKPIT/Daily/2025-09-02.md.tmp.2050.1756777845316"
+    "40 - OPERATIONS/Projects/英语填空题批改多智能体协作系统.md.tmp.2050.1756779396735"
   ]
 }

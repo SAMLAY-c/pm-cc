@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"north-star","x":400,"y":50,"width":500,"height":200,"color":"1","text":"## 🎯 总体目标\n\n### 2.5个月成功转行AI产品经理\n- **时间安排**: 2月基础月 + 3月项目月 + 15天上岸冲刺\n- **核心目标**: 获得AI产品经理offer\n- **学习重点**: 技术理解 + 产品设计 + 项目实战\n\n### 学习体系架构\n```\n00 - INBOX/ → 每日收集新知识\n10 - COCKPIT/ → 每日学习指挥中心\n20 - ATOMS/ → 知识原子化存储\n30 - INCUBATOR/ → 思考碰撞和项目孵化\n40 - OPERATIONS/ → 实战项目管理\n```","type":"text"},
+		{"id":"timeline-overview","x":400,"y":300,"width":600,"height":300,"color":"2","text":"## 📅 时间规划总览\n\n### 学习阶段划分\n```\n┌─────────────────┬─────────────────┬─────────────────┐\n│     2月基础月    │    3月项目月     │  15天上岸冲刺    │\n│   (职业规划+    │   (产品设计+    │  (简历优化+    │\n│    技术学习)    │    项目实战)    │   面试准备)     │\n└─────────────────┴─────────────────┴─────────────────┘\n```\n\n### 关键里程碑\n- **Week 1**: 职业规划 + 产品基础\n- **Week 2-4**: AI技术基础 (机器学习、深度学习、LLM)\n- **Week 5-6**: AI产品设计方法论\n- **Week 7-8**: 3个AI项目实战\n- **Week 9-10**: 面试冲刺 + 求职投递","type":"text"},
+		{"id":"feb-plan","x":50,"y":100,"width":300,"height":400,"color":"3","text":"## 📋 2月：基础构建月\n\n### 第1周：职业规划 + 产品基础\n**核心目标**: 明确AI产品经理定位\n- [ ] 完成1对1职业规划\n- [ ] 学习产品基础知识\n- [ ] 建立产品思维框架\n\n### 第2-4周：AI技术基础\n**核心目标**: 掌握技术核心概念\n\n**技术学习路径**:\n- 机器学习基础概念\n- 深度学习基础概念\n- 大语言模型原理\n- AIGC技术原理\n\n**每日学习目标**:\n- 学习2-3个技术概念\n- 完成1个代码练习\n- 创建1个理解笔记\n- 深度思考复盘","type":"text"},
+		{"id":"mar-plan","x":50,"y":550,"width":300,"height":400,"color":"4","text":"## 🚀 3月：项目实战月\n\n### 第1-2周：AI产品设计方法论\n**核心目标**: 掌握AI产品设计特殊性\n\n**学习内容**:\n- AI产品设计原则\n- AI产品生命周期\n- AI产品评估指标\n- 数据策略与管理\n- AI产品商业模式\n\n### 第3-4周：AI项目实战\n**核心目标**: 完成3个完整AI项目\n\n**项目列表**:\n1. 自动驾驶项目\n2. PLC广告流媒体项目\n3. AI二手车项目\n\n**每个项目交付物**:\n- PRD文档\n- 原型设计\n- 技术方案\n- 模型选型\n- 项目总结","type":"text"},
+		{"id":"final-sprint","x":1050,"y":100,"width":300,"height":500,"color":"5","text":"## 🏃‍♂️ 清明节后：冲刺上岸\n\n### 第1-5天：简历和作品集优化\n**目标**: 转化学习成果为求职材料\n\n**每日任务**:\n- Day 1: 简历重构\n- Day 2: 简历优化\n- Day 3-4: 作品集整理\n- Day 5: 求职材料准备\n\n### 第6-10天：面试准备\n**目标**: 系统化准备面试\n\n**准备分类**:\n- 技术面试 (Day 6-7)\n- 产品面试 (Day 8-9)\n- 行为面试 (Day 10)\n\n### 第11-15天：模拟面试和投递\n**目标**: 实战演练，开始求职\n\n**执行计划**:\n- 技术面试模拟 (3次)\n- 产品设计模拟 (3次)\n- 行为面试模拟 (2次)\n- 压力面试模拟 (1次)\n- 简历投递 (50+公司)","type":"text"},
+		{"id":"tracking-system","x":1050,"y":650,"width":300,"height":300,"color":"6","text":"## 📊 进度跟踪系统\n\n### 日常学习管理\n**每日流程**:\n- 晨间: 制定当日目标\n- 日间: 执行学习任务\n- 晚上: 深度思考复盘\n\n### 每日检查清单\n- [ ] 完成当日学习笔记\n- [ ] 记录学习时长内容\n- [ ] 更新项目进度\n- [ ] 深度思考复盘\n- [ ] 规划明日任务\n\n### 关键成功指标\n- 技术概念: 50+个\n- 完整项目: 3个\n- STAR案例: 15个\n- 模拟面试: 9+次\n- 简历投递: 50+家","type":"text"},
+		{"id":"core-docs","x":400,"y":650,"width":600,"height":200,"color":"1","text":"## 🔗 核心文档链接\n\n### 📚 学习计划文档\n- [[40 - OPERATIONS/Projects/AI产品经理转行学习计划]] → 详细学习计划\n- [[40 - OPERATIONS/Projects/AI产品经理冲刺上岸计划]] → 15天冲刺方案\n- [[40 - OPERATIONS/Projects/AI产品经理学习进度跟踪系统]] → 进度管理\n\n### 📝 模板系统\n- [[TEMPLATES.md]] → 思考模板使用指南\n- [[核心议题模板]] → 复杂概念学习\n- [[论点质询模板]] → 深度理解思考\n- [[每日笔记模板]] → 日常学习管理\n\n### 🚀 立即行动\n1. 创建今日学习笔记: 10 - COCKPIT/Daily/2025-09-03.md\n2. 使用每日笔记模板记录计划\n3. 开始第一个技术概念学习\n4. 用论点质询模板深度思考\n5. 更新项目进度跟踪系统","type":"text"},
+		{"id":"daily-template","x":400,"y":900,"width":600,"height":150,"color":"3","file":"10 - COCKPIT/Daily/2025-09-03","type":"file"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"north-star","fromSide":"bottom","toNode":"timeline-overview","toSide":"top","color":"1","label":"目标分解"},
+		{"id":"e2","fromNode":"timeline-overview","fromSide":"left","toNode":"feb-plan","toSide":"right","color":"2","label":"2月计划"},
+		{"id":"e3","fromNode":"timeline-overview","fromSide":"bottom-left","toNode":"mar-plan","toSide":"top-right","color":"2","label":"3月计划"},
+		{"id":"e4","fromNode":"timeline-overview","fromSide":"right","toNode":"final-sprint","toSide":"left","color":"2","label":"冲刺计划"},
+		{"id":"e5","fromNode":"final-sprint","fromSide":"bottom","toNode":"tracking-system","toSide":"top","color":"5","label":"进度监控"},
+		{"id":"e6","fromNode":"timeline-overview","fromSide":"bottom","toNode":"core-docs","toSide":"top","color":"2","label":"文档支持"},
+		{"id":"e7","fromNode":"core-docs","fromSide":"bottom","toNode":"daily-template","toSide":"top","color":"1","label":"今日行动"},
+		{"id":"e8","fromNode":"feb-plan","fromSide":"bottom","toNode":"mar-plan","toSide":"top","color":"3","label":"进阶学习"}
+	]
+}
