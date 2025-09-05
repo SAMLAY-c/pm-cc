@@ -350,6 +350,38 @@ After providing the explanation, create the content using the appropriate templa
 5. **Add proper tags** for categorization and filtering
 6. **Set up Dataview queries** for automation where applicable
 
+### Content Volume Management Strategy
+
+**当处理大量信息时（超过5个论点或复杂主题）：**
+1. **优先创建Obsidian Canvas**：将复杂内容可视化展示
+2. **Canvas位置**：`/Users/linchenglie/Desktop/pm-ob/30 - INCUBATOR/Canvases/`
+3. **参考格式**：基于现有Canvas的结构和样式
+4. **创建规则**：
+   - 如果论点数量超过5个，优先创建Canvas
+   - 如果内容包含复杂的流程图或关系映射，使用Canvas
+   - 如果内容需要可视化的时间线或路径规划，使用Canvas
+   - Canvas应包含核心议题、论点连接、风险分析、行动项等关键元素
+
+**Canvas创建标准格式：**
+```json
+{
+  "nodes": [
+    {"id": "core-topic", "type": "text", "text": "核心议题", "x": 0, "y": 0, "width": 200, "height": 100, "color": "6"},
+    {"id": "argument1", "type": "text", "text": "论点1", "x": 300, "y": 0, "width": 180, "height": 80, "color": "1"},
+    {"id": "argument2", "type": "text", "text": "论点2", "x": 300, "y": 150, "width": 180, "height": 80, "color": "1"},
+    {"id": "risk-analysis", "type": "text", "text": "风险分析", "x": 600, "y": 75, "width": 200, "height": 120, "color": "4"},
+    {"id": "actions", "type": "text", "text": "行动项", "x": 900, "y": 75, "width": 200, "height": 120, "color": "5"}
+  ],
+  "edges": [
+    {"id": "edge1", "fromNode": "core-topic", "fromSide": "right", "toNode": "argument1", "toSide": "left", "label": "拆解"},
+    {"id": "edge2", "fromNode": "core-topic", "fromSide": "right", "toNode": "argument2", "toSide": "left", "label": "拆解"},
+    {"id": "edge3", "fromNode": "argument1", "fromSide": "right", "toNode": "risk-analysis", "toSide": "left", "label": "分析"},
+    {"id": "edge4", "fromNode": "argument2", "fromSide": "right", "toNode": "risk-analysis", "toSide": "left", "label": "分析"},
+    {"id": "edge5", "fromNode": "risk-analysis", "fromSide": "right", "toNode": "actions", "toSide": "left", "label": "生成"}
+  ]
+}
+```
+
 ### Step 4: Provide Usage Guidance
 
 After creating the content, explain:
@@ -512,3 +544,16 @@ The goal is to create a living knowledge network that generates unique insights 
 2. **会议准备**: 用思考成果准备会议讨论要点
 3. **知识分享**: 将成熟的洞察分享给团队成员
 4. **持续迭代**: 基于实践反馈不断完善思考框架
+
+---
+
+## 当前学习状态
+
+**用户角色**：AI产品经理实习生  
+**工作领域**：K12 AI效率后台产品经理  
+**学习重点**：AI大模型技术与应用  
+**当前项目**：B站AI大模型教程知识体系建设  
+**学习进度**：已完成748集教程的深度分析和知识体系搭建  
+
+**学习资料位置**：`20 - ATOMS/AI大模型学习体系/`  
+**核心导航**：[[AI大模型学习体系/MOC - AI大模型学习路径]]

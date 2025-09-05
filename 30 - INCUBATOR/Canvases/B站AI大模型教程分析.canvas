@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"core-topic","type":"text","text":"B站AI大模型教程深度分析\n748集零基础教程价值评估","x":50,"y":50,"width":250,"height":100,"color":"6"},
+		{"id":"argument1","type":"text","text":"论点1：完整学习路径价值\n系统性 vs 学习疲劳\n748集体量的双刃剑","x":400,"y":0,"width":200,"height":100,"color":"1"},
+		{"id":"argument2","type":"text","text":"论点2：机器学习三大类别\n监督/无监督/强化学习\n理论vs实际应用","x":400,"y":150,"width":200,"height":100,"color":"1"},
+		{"id":"argument3","type":"text","text":"论点3：三阶段训练方法论\n预训练→SFT→RLHF\n成本门槛vs参与机会","x":400,"y":300,"width":200,"height":100,"color":"1"},
+		{"id":"argument4","type":"text","text":"论点4：2025技术趋势\n强化学习/AI Agent/数据合成\n市场预测vs现实约束","x":400,"y":450,"width":200,"height":100,"color":"1"},
+		{"id":"argument5","type":"text","text":"论点5：人才市场需求\n薪资水平vs实际能力\n就业机会vs竞争压力","x":400,"y":600,"width":200,"height":100,"color":"1"},
+		{"id":"risk-analysis","type":"text","text":"核心风险分析\n• 学习坚持风险\n• 技术门槛风险\n• 期望错位风险\n• 投资泡沫风险","x":700,"y":225,"width":220,"height":150,"color":"4"},
+		{"id":"opportunity-analysis","type":"text","text":"核心机会分析\n• 系统化知识体系\n• 实战项目经验\n• 技术趋势把握\n• 职业转型机会","x":700,"y":425,"width":220,"height":150,"color":"2"},
+		{"id":"actions","type":"text","text":"关键行动建议\n• 个性化学习路径\n• 项目驱动学习\n• 持续技术监测\n• 差异化能力建设","x":1000,"y":325,"width":220,"height":150,"color":"5"}
+	],
+	"edges":[
+		{"id":"edge1","fromNode":"core-topic","fromSide":"right","toNode":"argument1","toSide":"left","label":"拆解"},
+		{"id":"edge2","fromNode":"core-topic","fromSide":"right","toNode":"argument2","toSide":"left","label":"拆解"},
+		{"id":"edge3","fromNode":"core-topic","fromSide":"right","toNode":"argument3","toSide":"left","label":"拆解"},
+		{"id":"edge4","fromNode":"core-topic","fromSide":"right","toNode":"argument4","toSide":"left","label":"拆解"},
+		{"id":"edge5","fromNode":"core-topic","fromSide":"right","toNode":"argument5","toSide":"left","label":"拆解"},
+		{"id":"edge6","fromNode":"argument1","fromSide":"right","toNode":"risk-analysis","toSide":"left","label":"分析"},
+		{"id":"edge7","fromNode":"argument2","fromSide":"right","toNode":"risk-analysis","toSide":"left","label":"分析"},
+		{"id":"edge8","fromNode":"argument3","fromSide":"right","toNode":"risk-analysis","toSide":"left","label":"分析"},
+		{"id":"edge9","fromNode":"argument4","fromSide":"right","toNode":"opportunity-analysis","toSide":"left","label":"识别"},
+		{"id":"edge10","fromNode":"argument5","fromSide":"right","toNode":"opportunity-analysis","toSide":"left","label":"识别"},
+		{"id":"edge11","fromNode":"risk-analysis","fromSide":"right","toNode":"actions","toSide":"left","label":"制定"},
+		{"id":"edge12","fromNode":"opportunity-analysis","fromSide":"right","toNode":"actions","toSide":"left","label":"制定"}
+	]
+}
