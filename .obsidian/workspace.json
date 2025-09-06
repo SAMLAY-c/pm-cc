@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20 - ATOMS/Concepts/LLM协作/AI社群：斯坦福小镇实验.md",
+                "file": "20 - ATOMS/Concepts/能力卡：信息架构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI社群：斯坦福小镇实验"
+              "title": "能力卡：信息架构"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "小镇",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 231.5
   },
   "right": {
     "id": "4a5b0fa07d38d3cc",
@@ -171,44 +171,45 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a6965ff694786276",
+  "active": "bcd83d0ad72c1e5e",
   "lastOpenFiles": [
-    "20 - ATOMS/Sources/李宏毅2024 GenAI导论 - 多模型协作.md",
-    "20 - ATOMS/AI大模型学习体系/AI基础与机器学习三大类别.md",
-    "20 - ATOMS/AI大模型学习体系/MOC - AI大模型学习路径.md",
-    "20 - ATOMS/AI大模型学习体系/大模型训练的三阶段方法论.md",
-    "40 - OPERATIONS/Projects/B站AI大模型教程学习项目.md",
-    "20 - ATOMS/AI大模型学习体系/Transformer架构.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/01-核心问题.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/03-技术基础/Transformer数学原理.md",
+    "20 - ATOMS/Concepts/能力卡：交互设计.md",
     "20 - ATOMS/Concepts/能力卡：编程能力.md",
-    "30 - INCUBATOR/MOCs/MOC - 产品经理能力模型.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/02-完整报告.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/注意力机制知识体系 - 阅读导航.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/README.md",
+    "20 - ATOMS/Concepts/词汇表映射 (Vocabulary Mapping).md",
+    "20 - ATOMS/Concepts/模型处理 (Model Processing).md",
+    "20 - ATOMS/Concepts/分词 (Tokenization).md",
+    "20 - ATOMS/Concepts/词嵌入 (Word Embedding).md",
+    "30 - INCUBATOR/MOCs/MOC - LLM如何理解文字.md",
+    "20 - ATOMS/Metaphors/乐高积木比喻：理解Token与ID.md",
+    "20 - ATOMS/Metaphors",
+    "20 - ATOMS/Concepts/模型处理 (Model Processing).md.tmp.62567.1757146392266",
+    "20 - ATOMS/Concepts/词嵌入 (Word Embedding).md.tmp.62567.1757146382575",
     "20 - ATOMS/AI大模型学习体系/国内外大模型发展趋势.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/03-技术基础/人类神经科学基础.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/注意力机制知识体系 - 阅读导航.md.tmp.4331.1757001218374",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析/局限性对比.md.tmp.4331.1757001188809",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析/信息处理机制对比.md.tmp.4331.1757001171340",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/05-高层思考/未来展望.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/05-高层思考/进化视角.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析/学习能力对比.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析/信息处理机制对比.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析/局限性对比.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/01-核心问题.md.tmp.4331.1757001051145",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/01-核心问题.md.tmp.4331.1757001047799",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/README.md.tmp.4331.1757000972909",
-    "20 - ATOMS/AI大模型学习体系/注意力机制知识体系 - 阅读导航.md",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/05-高层思考",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/04-对比分析",
-    "20 - ATOMS/AI大模型学习体系/注意力机制/03-技术基础",
-    "20 - ATOMS/AI大模型学习体系/注意力机制",
-    "20 - ATOMS/AI大模型学习体系/Transformer注意力机制的数学原理.md",
-    "20 - ATOMS/AI大模型学习体系/Transformer与人类注意力的学习与适应能力对比.md",
-    "20 - ATOMS/AI大模型学习体系/Transformer与人类注意力的局限性对比.md",
-    "20 - ATOMS/AI大模型学习体系/Transformer与人类注意力的信息处理机制对比.md",
-    "20 - ATOMS/AI大模型学习体系/Transformer的注意力机制与我作为人类的注意力有何异同.md",
+    "20 - ATOMS/AI大模型学习体系/大模型训练的三阶段方法论.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/01-什么是Token.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/02-Token知识 - AI产品经理版.md",
+    "20 - ATOMS/Sources/LLM如何理解文字 - 词汇表映射深度解析.md",
+    "20 - ATOMS/Sources/LLM如何理解文字 - 词汇表映射深度解析.md.tmp.62567.1757146328828",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/README.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/08-Transformer训练策略.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/07-训练推理原理.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/08-模型推理优化.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/06-模型开发全流程.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/04-应用发展层/11-LoRA微调技术.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/09-多模态融合技术.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/07-Transformer架构解析.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/05-大模型关键技术栈.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/04-LLM完整生命周期.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/03-图像Token化.md",
+    "20 - ATOMS/Concepts/图像Token化.md",
+    "20 - ATOMS/Concepts/什么是Token.md",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/05-评估应用层",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/04-应用发展层",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层",
+    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析",
+    "30 - INCUBATOR/Canvases/LLM基础知识与论文解析.canvas",
     "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
     "30 - INCUBATOR/Canvases/AI产品经理转型全攻略.canvas",
     "30 - INCUBATOR/Canvases/日程管理.canvas",
@@ -217,7 +218,6 @@
     "AI产品经理转行学习路径.canvas",
     "30 - INCUBATOR/Canvases/1.canvas",
     "30 - INCUBATOR/Canvases/AI产品经理转行学习计划-simple.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理面试准备知识图谱.canvas"
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas"
   ]
 }
