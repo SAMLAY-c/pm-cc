@@ -11,14 +11,17 @@
             "id": "bcd83d0ad72c1e5e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "20 - ATOMS/Concepts/能力卡：信息架构.md",
-                "mode": "source",
-                "source": false
+                "file": "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas",
+                "viewState": {
+                  "x": 680.8125812344397,
+                  "y": 479.606375934669,
+                  "zoom": -0.84793585250775
+                }
               },
-              "icon": "lucide-file",
-              "title": "能力卡：信息架构"
+              "icon": "lucide-layout-dashboard",
+              "title": "超级沟通者对话模型"
             }
           }
         ]
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "4a5b0fa07d38d3cc",
@@ -173,42 +177,43 @@
   },
   "active": "bcd83d0ad72c1e5e",
   "lastOpenFiles": [
-    "20 - ATOMS/Concepts/能力卡：交互设计.md",
-    "20 - ATOMS/Concepts/能力卡：编程能力.md",
+    "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas.tmp.62567.1757153184064",
+    "20 - ATOMS/沟通技巧/倾听：通过重复总结达成共情.md",
+    "20 - ATOMS/沟通技巧/匹配对话类型.md",
+    "20 - ATOMS/沟通技巧/让对话持续以达成共识.md",
+    "20 - ATOMS/沟通技巧/情绪类对话：感受并共情对方的感受.md",
+    "20 - ATOMS/沟通技巧/社交类对话：挖掘与确认多重身份.md.tmp.62567.1757152575608",
+    "20 - ATOMS/沟通技巧/匹配对话类型.md.tmp.62567.1757152552501",
+    "20 - ATOMS/沟通技巧/提问：从浅层事实到深层价值观.md",
+    "20 - ATOMS/沟通技巧/示弱：暴露脆弱性以建立深度链接.md.tmp.62567.1757152519851",
+    "20 - ATOMS/沟通技巧/提问：从浅层事实到深层价值观.md.tmp.62567.1757152513585",
+    "20 - ATOMS/沟通技巧/MOC - 超级沟通者对话模型.md",
+    "20 - ATOMS/沟通技巧/不会说话反而更受欢迎 - 揭秘《超级沟通者》.md",
+    "20 - ATOMS/沟通技巧/MOC - 超级沟通者对话模型.md.tmp.62567.1757152465834",
+    "20 - ATOMS/沟通技巧/沟通的意义：从弱到强的自我实现.md",
+    "20 - ATOMS/沟通技巧/社交类对话：挖掘与确认多重身份.md",
+    "20 - ATOMS/沟通技巧/务实类对话：解决问题与制定计划.md",
+    "20 - ATOMS/Concepts/情绪类对话：感受并共情对方的感受.md",
+    "20 - ATOMS/沟通技巧/大笑：用非语言信号打破社交壁垒.md",
+    "20 - ATOMS/沟通技巧/鼓励：在示弱后抬高对方以建立信任.md",
+    "20 - ATOMS/沟通技巧/示弱：暴露脆弱性以建立深度链接.md",
+    "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas",
+    "20 - ATOMS/沟通技巧",
+    "20 - ATOMS/Concepts/沟通的意义：从弱到强的自我实现.md",
+    "20 - ATOMS/Concepts/沟通的意义：从弱到强的自我实现.md.tmp.62567.1757152252738",
+    "20 - ATOMS/Concepts/倾听：通过重复总结达成共情.md",
+    "20 - ATOMS/Concepts/社交类对话：挖掘与确认多重身份.md",
+    "20 - ATOMS/Concepts/务实类对话：解决问题与制定计划.md",
+    "20 - ATOMS/Concepts/匹配对话类型.md",
+    "20 - ATOMS/Concepts/匹配对话类型.md.tmp.62567.1757152119177",
     "20 - ATOMS/Concepts/词汇表映射 (Vocabulary Mapping).md",
-    "20 - ATOMS/Concepts/模型处理 (Model Processing).md",
-    "20 - ATOMS/Concepts/分词 (Tokenization).md",
-    "20 - ATOMS/Concepts/词嵌入 (Word Embedding).md",
-    "30 - INCUBATOR/MOCs/MOC - LLM如何理解文字.md",
-    "20 - ATOMS/Metaphors/乐高积木比喻：理解Token与ID.md",
+    "20 - ATOMS/Concepts/能力卡：信息架构.md",
+    "20 - ATOMS/Concepts/让对话持续以达成共识.md",
+    "20 - ATOMS/Concepts/大笑：用非语言信号打破社交壁垒.md",
+    "20 - ATOMS/Concepts/鼓励：在示弱后抬高对方以建立信任.md",
+    "20 - ATOMS/Concepts/示弱：暴露脆弱性以建立深度链接.md",
+    "20 - ATOMS/Concepts/倾听：通过重复总结达成共情.md.tmp.62567.1757152000874",
     "20 - ATOMS/Metaphors",
-    "20 - ATOMS/Concepts/模型处理 (Model Processing).md.tmp.62567.1757146392266",
-    "20 - ATOMS/Concepts/词嵌入 (Word Embedding).md.tmp.62567.1757146382575",
-    "20 - ATOMS/AI大模型学习体系/国内外大模型发展趋势.md",
-    "20 - ATOMS/AI大模型学习体系/大模型训练的三阶段方法论.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/01-什么是Token.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/02-Token知识 - AI产品经理版.md",
-    "20 - ATOMS/Sources/LLM如何理解文字 - 词汇表映射深度解析.md",
-    "20 - ATOMS/Sources/LLM如何理解文字 - 词汇表映射深度解析.md.tmp.62567.1757146328828",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/README.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/08-Transformer训练策略.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/07-训练推理原理.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/08-模型推理优化.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/06-模型开发全流程.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/04-应用发展层/11-LoRA微调技术.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/09-多模态融合技术.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层/07-Transformer架构解析.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层/05-大模型关键技术栈.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/04-LLM完整生命周期.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层/03-图像Token化.md",
-    "20 - ATOMS/Concepts/图像Token化.md",
-    "20 - ATOMS/Concepts/什么是Token.md",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/05-评估应用层",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/04-应用发展层",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/03-架构深入层",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/02-技术核心层",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析/01-基础概念层",
-    "20 - ATOMS/AI大模型学习体系/LLM基础知识与论文解析",
     "30 - INCUBATOR/Canvases/LLM基础知识与论文解析.canvas",
     "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
     "30 - INCUBATOR/Canvases/AI产品经理转型全攻略.canvas",
@@ -217,7 +222,6 @@
     "30 - INCUBATOR/Canvases/B站AI大模型教程分析.canvas",
     "AI产品经理转行学习路径.canvas",
     "30 - INCUBATOR/Canvases/1.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划-simple.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划.canvas"
+    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划-simple.canvas"
   ]
 }

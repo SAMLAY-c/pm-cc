@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"moc","type":"text","text":"MOC: 超级沟通者对话模型\n\n核心思想：真正的高手不是最会\"说\"的人，而是最能\"引导对话\"和\"达成共识\"的人\n\n核心策略：让对话持续","x":400,"y":-140,"width":300,"height":120,"color":"6"},
+		{"id":"source","type":"file","file":"20 - ATOMS/沟通技巧/不会说话反而更受欢迎 - 揭秘《超级沟通者》.md","subpath":"","# 原始材料\n不会说话反而更受欢迎\n揭秘《超级沟通者》\n\n完整讲稿内容\n作为知识来源和证据库","x":950,"y":-50,"width":250,"height":100,"color":"2"},
+		{"id":"questioning","type":"file","file":"20 - ATOMS/沟通技巧/提问：从浅层事实到深层价值观.md","subpath":"","# 提问\n从浅层事实到深层价值观\n\n• 浅层：\"你是哪里人？\"\n• 深层：\"家乡最眷恋的点在哪？\"\n\n所有人愿意通过阐述价值观来表达\"我是谁\"","x":-405,"y":320,"width":340,"height":200,"color":"1"},
+		{"id":"listening","type":"file","file":"20 - ATOMS/沟通技巧/倾听：通过重复总结达成共情.md","subpath":"","# 倾听\n通过重复总结达成共情\n\n• 动作：重复和总结对方的话\n• 效果：建立\"他很懂我\"的链接\n• 示例：\"听起来你很着急，遇到了困难，对吗？\"","x":-20,"y":330,"width":280,"height":180,"color":"1"},
+		{"id":"vulnerability","type":"file","file":"20 - ATOMS/沟通技巧/示弱：暴露脆弱性以建立深度链接.md","subpath":"","# 示弱\n暴露脆弱性以建立深度链接\n\n• \"反者道之动，弱者道之用\"\n• 脆弱性→情绪传染→深度链接\n• 行为改变想法","x":-405,"y":560,"width":275,"height":190,"color":"1"},
+		{"id":"encouragement","type":"file","file":"20 - ATOMS/沟通技巧/鼓励：在示弱后抬高对方以建立信任.md","subpath":"","# 鼓励\n在示弱后抬高对方以建立信任\n\n• 关键：先示弱放低自己，再鼓励抬高对方\n• 从下往上的鼓励最有价值\n• 正确次序：提问→倾听→示弱→鼓励","x":-30,"y":570,"width":310,"height":220,"color":"1"},
+		{"id":"laughter","type":"file","file":"20 - ATOMS/沟通技巧/大笑：用非语言信号打破社交壁垒.md","subpath":"","# 大笑\n用非语言信号打破社交壁垒\n\n• 80%的沟通信息通过非语言传递\n• 根本原因：社交需求，非事情好笑\n• 效果：调动情绪、传递积极信号","x":-210,"y":890,"width":290,"height":170,"color":"1"},
+		{"id":"five-traits","type":"text","text":"五大特征\n🎭 超级沟通者的特征\n\n构建个人气场与吸引力的核心能力","x":-185,"y":15,"width":240,"height":170,"color":"1"},
+		{"id":"practical","type":"file","file":"20 - ATOMS/沟通技巧/务实类对话：解决问题与制定计划.md","subpath":"","# 务实类对话\n解决问题与制定计划\n\n• 目标：解决问题，制定计划\n• 关注：\"遇到什么事(What)？\"\"怎么做(How)？\"\n• 句式：\"来，我告诉你1,2,3...\"\n\n误区：在对方需要情感支持时给解决方案","x":280,"y":263,"width":370,"height":257,"color":"4"},
+		{"id":"practice","type":"text","text":"实践应用\n\n• 每日选择一个技巧练习\n• 在\"质询与思辨\"部分深度思考\n• 在\"我的实践练习\"部分记录真实案例\n• 定期回顾MOC检查掌握情况\n\n核心：刻意练习，持续迭代","x":505,"y":975,"width":250,"height":100,"color":"2"},
+		{"id":"emotional","type":"file","file":"20 - ATOMS/沟通技巧/情绪类对话：感受并共情对方的感受.md","subpath":"","# 情绪类对话\n感受并共情对方的感受\n\n• 目标：寻求共情和感受被理解\n• 核心：\"我不需要解决方案，只需要你感受到我的感受\"\n• 最佳策略：倾听（重复总结）\n\n正确：\"听起来这事确实挺难的\"","x":675,"y":263,"width":303,"height":257,"color":"4"},
+		{"id":"core-strategy","type":"file","file":"20 - ATOMS/沟通技巧/让对话持续以达成共识.md","subpath":"","# 核心策略\n✨ 让对话持续以达成共识\n\n底层结论：只要能让对话持续下去，共识就一定能建立起来\n\n心理学基础：人类持续交流时脑电波会趋于同步","x":975,"y":118,"width":285,"height":122,"color":"5"}
+		{"id":"conversation-types","type":"text","text":"对话类型\n🧩 三种对话类型\n\n识别对话场景并采取正确策略","x":440,"y":50,"width":260,"height":135,"color":"4"},
+		{"id":"matching","type":"file","file":"20 - ATOMS/沟通技巧/匹配对话类型.md","subpath":"","# 匹配对话类型\n\n让对话持续的方法：识别并匹配对方当下的对话类型\n\n• 务实类→解决方案\n• 情绪类→共情理解\n• 社交类→身份确认\n\n动态变化，随时调整策略","x":1000,"y":300,"width":260,"height":120,"color":"5"}
+		{"id":"meaning","type":"file","file":"20 - ATOMS/沟通技巧/沟通的意义：从弱到强的自我实现.md","subpath":"","# 终极意义\n沟通的意义：从弱到强的自我实现\n\n哈佛故事对比：\n• 弱鸡：通过沟通发现\"被需要\"的价值，成为社区领袖\n• 强人：拒绝沟通，孤老终生\n\n启示：沟通能力是重启人生、实现自我价值的途径","x":978,"y":510,"width":305,"height":260,"color":"3"},
+		{"id":"social","type":"file","file":"20 - ATOMS/沟通技巧/社交类对话：挖掘与确认多重身份.md","subpath":"","# 社交类对话\n挖掘与确认多重身份\n\n• 占比：日常对话80%以上\n• 核心：确认身份（\"我是谁？你是谁？我们是谁？\"）\n• 策略：挖掘和叠加多重身份\n\n示例：员工→母亲，领导→父母","x":492,"y":655,"width":335,"height":225,"color":"4"}
+	],
+	"edges":[
+		{"id":"moc-source","fromNode":"moc","fromSide":"right","toNode":"source","toSide":"left","label":"来源"},
+		{"id":"moc-five-traits","fromNode":"moc","fromSide":"left","toNode":"five-traits","toSide":"top","label":"包含"},
+		{"id":"moc-conversation-types","fromNode":"moc","fromSide":"bottom","toNode":"conversation-types","toSide":"top","label":"包含"},
+		{"id":"moc-core-strategy","fromNode":"moc","fromSide":"right","toNode":"core-strategy","toSide":"left","label":"核心"},
+		{"id":"five-traits-questioning","fromNode":"five-traits","fromSide":"bottom","toNode":"questioning","toSide":"top","label":"1"},
+		{"id":"five-traits-listening","fromNode":"five-traits","fromSide":"bottom","toNode":"listening","toSide":"top","label":"2"},
+		{"id":"questioning-vulnerability","fromNode":"questioning","fromSide":"bottom","toNode":"vulnerability","toSide":"top","label":"3"},
+		{"id":"listening-encouragement","fromNode":"listening","fromSide":"bottom","toNode":"encouragement","toSide":"top","label":"4"},
+		{"id":"vulnerability-laughter","fromNode":"vulnerability","fromSide":"bottom","toNode":"laughter","toSide":"top","label":"5"},
+		{"id":"encouragement-laughter","fromNode":"encouragement","fromSide":"bottom","toNode":"laughter","toSide":"top","label":"5"},
+		{"id":"conversation-types-practical","fromNode":"conversation-types","fromSide":"bottom","toNode":"practical","toSide":"top","label":"类型1"},
+		{"id":"conversation-types-emotional","fromNode":"conversation-types","fromSide":"bottom","toNode":"emotional","toSide":"top","label":"类型2"},
+		{"id":"practical-social","fromNode":"practical","fromSide":"bottom","toNode":"social","toSide":"top","label":"类型3"},
+		{"id":"emotional-social","fromNode":"emotional","fromSide":"bottom","toNode":"social","toSide":"top","label":"类型3"},
+		{"id":"core-strategy-matching","fromNode":"core-strategy","fromSide":"bottom","toNode":"matching","toSide":"top","label":"方法"},
+		{"id":"matching-meaning","fromNode":"matching","fromSide":"bottom","toNode":"meaning","toSide":"top","label":"终极意义"},
+		{"id":"practice-moc","fromNode":"practice","fromSide":"top","toNode":"moc","toSide":"bottom","label":"指导实践"},
+		{"id":"practice-five-traits","fromNode":"practice","fromSide":"left","toNode":"five-traits","toSide":"bottom","label":"练习"},
+		{"id":"practice-conversation-types","fromNode":"practice","fromSide":"right","toNode":"conversation-types","toSide":"bottom","label":"练习"}
+	]
+}
