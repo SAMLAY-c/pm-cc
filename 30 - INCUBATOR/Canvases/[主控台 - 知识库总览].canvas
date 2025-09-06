@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"main-title","type":"text","text":"# 🎛️ 主控台 - 知识库总览\n\n**认知增强引擎** | AI产品经理知识管理系统\n\n*从信息存储到洞察创造的完整工作流*","x":400,"y":50,"width":500,"height":100,"color":"6"},
+		{"id":"cockpit","type":"text","text":"## 🚀 10 - COCKPIT\n\n**每日作战指挥中心**\n\n📝 **功能**:\n- 每日任务管理\n- OKR对齐检查\n- 情报流入处理\n- 战略连接分析\n\n📋 **Canvas**: \n[[Canvas - 我的战略指挥中心]] ✓\n\n📁 **快速访问**:\n[[10 - COCKPIT]]\n\n⚡ **关键文件**:\n- [[My Command Center]]\n- [[今日任务示例]]","x":350,"y":200,"width":200,"height":180,"color":"2"},
+		{"id":"atoms","type":"text","text":"## ⚛️ 20 - ATOMS\n\n**原子化知识库**\n\n📝 **核心内容**:\n- AI大模型学习体系\n- 产品经理思维模型\n- 人际关系网络\n- 沟通技巧体系\n\n📋 **主要Canvas**:\n- [[B站AI大模型教程分析]]\n- [[LLM基础知识与论文解析]]\n- [[超级沟通者对话模型]]\n- 12个人物关系Canvas\n\n📁 **快速访问**:\n[[20 - ATOMS]]","x":600,"y":200,"width":200,"height":180,"color":"3"},
+		{"id":"incubator","type":"text","text":"## 🧪 30 - INCUBATOR\n\n**洞察孵化器**\n\n📝 **功能**:\n- 知识连接与碰撞\n- MOC思维导图\n- Canvas可视化\n- 创新思考空间\n\n📋 **现有Canvas**:\n- [[公司完整组织架构图]]\n- [[AI产品经理转行学习计划]]\n- [[LLM基础知识与论文解析]]\n- [[超级沟通者对话模型]]\n\n📁 **快速访问**:\n[[30 - INCUBATOR]]","x":850,"y":200,"width":200,"height":180,"color":"4"},
+		{"id":"operations","type":"text","text":"## ⚙️ 40 - OPERATIONS\n\n**项目管理中心**\n\n📝 **功能**:\n- 活跃项目管理\n- 会议纪要系统\n- 项目跟踪仪表盘\n- 决策记录\n\n📋 **Canvas**: \n[[Canvas - 项目管理看板]]\n\n📁 **快速访问**:\n[[40 - OPERATIONS]]\n\n⚡ **关键项目**:\n- [[低价直播间聊天留存系统]]\n- [[AI产品经理转行学习计划]]\n- [[英语填空题批改多智能体协作系统]]","x":-100,"y":420,"width":400,"height":200,"color":"5"},
+		{"id":"system","type":"text","text":"## 🔧 99 - SYSTEM\n\n**系统配置中心**\n\n📝 **功能**:\n- 模板管理\n- 配置文件\n- 附件资源\n- 自动化脚本\n\n📋 **Canvas**: \n[[Canvas - 系统配置导航]]\n\n📁 **快速访问**:\n[[99 - SYSTEM]]\n\n⚡ **关键文件**:\n- [[TEMPLATES]]\n- [[OBSIDIAN_RULES]]\n- [[CLAUDE.md]]","x":350,"y":420,"width":200,"height":200,"color":"1"},
+		{"id":"ai-learning","type":"text","text":"## 🤖 AI学习体系\n\n**B站748集教程知识网络**\n\n📝 **核心内容**:\n- LLM基础技术栈\n- Transformer架构\n- 多模态融合\n- 训练推理优化\n\n📋 **主要Canvas**:\n- [[B站AI大模型教程分析]]\n- [[LLM基础知识与论文解析]]\n\n📁 **快速访问**:\n[[20 - ATOMS/AI大模型学习体系]]\n\n⚡ **导航中心**:\n[[MOC - AI大模型学习路径]]","x":600,"y":420,"width":200,"height":200,"color":"2"},
+		{"id":"relationships","type":"text","text":"## 👥 人际关系网络\n\n**组织架构与人物关系**\n\n📝 **覆盖范围**:\n- 公司组织架构\n- 团队成员关系\n- 业务线负责人\n- 协作网络图\n\n📋 **Canvas资源**:\n- [[公司完整组织架构图]]\n- 12个人物关系Canvas\n\n📁 **快速访问**:\n[[20 - ATOMS/People]]\n\n⚡ **主要人物**:\n- 浩浩老师、陈佩、王硕、王凯\n- 钟华港、包瑞等核心团队","x":850,"y":420,"width":200,"height":200,"color":"3"},
+		{"id":"workflow","type":"text","text":"## 🔄 核心工作流\n\n**认知增强引擎运行模式**\n\n### 1. 信息收集 (INBOX)\n```\n接收信息 → 初步分类 → 进入处理队列\n```\n\n### 2. 深度处理 (ATOMS)\n```\n拆解论点 → 质询分析 → 建立连接 → 生成洞察\n```\n\n### 3. 洞察孵化 (INCUBATOR)\n```\n思维碰撞 → Canvas可视化 → MOC整合 → 创新输出\n```\n\n### 4. 项目落地 (OPERATIONS)\n```\n洞察应用 → 项目执行 → 成果交付 → 经验沉淀\n```\n\n🎯 **核心目标**: 从信息存储到洞察创造","x":-80,"y":660,"width":480,"height":780,"color":"6"},
+		{"id":"quick-start","type":"text","text":"## 🚀 快速开始指南\n\n### 新用户导航\n\n**每日必做**:\n1. 清空 [[00 - INBOX]]\n2. 查看 [[My Command Center]]\n3. 处理今日任务\n4. 更新项目进度\n\n**学习路径**:\n1. AI学习 → [[MOC - AI大模型学习路径]]\n2. 产品经理 → [[MOC - 产品经理能力模型]]\n3. 沟通技巧 → [[MOC - 超级沟通者对话模型]]\n\n**项目工作**:\n1. 新项目 → 使用项目模板\n2. 会议记录 → 使用会议模板\n3. 每日笔记 → 使用每日模板\n\n💡 **提示**: 所有Canvas都可以点击进入详细内容","x":450,"y":660,"width":300,"height":380,"color":"4"},
+		{"id":"statistics","type":"text","text":"## 📊 知识库统计\n\n### 规模概览\n\n**Canvas文件**: 16个\n**知识原子**: 100+个\n**项目文档**: 10+个\n**思维模型**: 20+个\n**人际关系**: 15+个\n\n### 内容分布\n\n- AI技术: 40%\n- 产品管理: 25%\n- 沟通技巧: 15%\n- 项目管理: 12%\n- 系统配置: 8%\n\n### 活跃度\n\n**每日更新**: 是\n**每周回顾**: 是\n**月度整理**: 是\n\n📈 **增长趋势**: 稳定扩展中","x":800,"y":660,"width":250,"height":220,"color":"5"},
+		{"id":"inbox","type":"text","text":"## 📥 00 - INBOX\n\n**信息收集中心**\n\n📝 **功能**: \n- 所有 incoming 信息的统一入口\n- 每日清空处理\n- 原子化分解\n\n📋 **Canvas**: \n[[Canvas - 信息处理流程]]\n\n📁 **快速访问**:\n[[00 - INBOX]]\n\n⚡ **工作流**:\n收集 → 分类 → 原子化 → 链接","x":-20,"y":60,"width":240,"height":320,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"main-title","fromSide":"bottom","toNode":"inbox","toSide":"top","color":"6"},
+		{"id":"e2","fromNode":"main-title","fromSide":"bottom","toNode":"cockpit","toSide":"top","color":"6"},
+		{"id":"e3","fromNode":"main-title","fromSide":"bottom","toNode":"atoms","toSide":"top","color":"6"},
+		{"id":"e4","fromNode":"main-title","fromSide":"bottom","toNode":"incubator","toSide":"top","color":"6"},
+		{"id":"e5","fromNode":"inbox","fromSide":"bottom","toNode":"operations","toSide":"top","color":"1"},
+		{"id":"e6","fromNode":"cockpit","fromSide":"bottom","toNode":"system","toSide":"top","color":"2"},
+		{"id":"e7","fromNode":"atoms","fromSide":"bottom","toNode":"ai-learning","toSide":"top","color":"3"},
+		{"id":"e8","fromNode":"incubator","fromSide":"bottom","toNode":"relationships","toSide":"top","color":"4"},
+		{"id":"e9","fromNode":"operations","fromSide":"bottom","toNode":"workflow","toSide":"top","color":"5"},
+		{"id":"e10","fromNode":"system","fromSide":"bottom","toNode":"quick-start","toSide":"top","color":"1"},
+		{"id":"e11","fromNode":"ai-learning","fromSide":"bottom","toNode":"statistics","toSide":"top","color":"2"},
+		{"id":"e12","fromNode":"relationships","fromSide":"bottom","toNode":"statistics","toSide":"top","color":"3"},
+		{"id":"e13","fromNode":"workflow","fromSide":"right","toNode":"quick-start","toSide":"left","color":"6"},
+		{"id":"e14","fromNode":"quick-start","fromSide":"right","toNode":"statistics","toSide":"left","color":"4"}
+	]
+}

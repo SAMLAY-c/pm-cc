@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# 🔧 系统配置导航\n\n**模板、工具和配置管理中心**\n\n*认知增强引擎的核心支撑系统*","x":400,"y":50,"width":500,"height":100,"color":"6"},
+		{"id":"templates-overview","type":"text","text":"## 📋 模板系统概览\n\n### 核心模板分类\n\n#### 思考类模板\n- **核心议题模板**: 复杂议题结构化分析\n- **论点质询模板**: 深度质疑AI观点\n- **思维碰撞Canvas模板**: 可视化思考过程\n- **每日思考检查模板**: 反思洞察跟踪\n\n#### 工作类模板\n- **每日笔记模板**: 认知工作流程\n- **会议模板**: 标准化会议记录\n- **项目模板**: 全生命周期项目管理\n- **PRD模板**: 产品需求文档\n\n### 模板使用原则\n1. **标准化**: 统一格式和结构\n2. **灵活性**: 根据需要调整\n3. **链接化**: 建立知识关联\n4. **迭代优化**: 持续改进模板","x":100,"y":200,"width":250,"height":220,"color":"1"},
+		{"id":"key-templates","type":"text","text":"## 🔑 关键模板详解\n\n### 每日笔记模板\n**文件**: [[每日笔记模板.md]]\n**用途**: 每日认知工作流程\n**核心结构**:\n- 晨间校准 (三大目标)\n- 实时战术记录\n- 信息处理和原子化\n- 晚间复盘和洞察\n\n### 会议模板\n**文件**: [[会议模板.md]]\n**用途**: 标准化会议记录\n**核心结构**:\n- 会议基本信息\n- 参会人员和议程\n- 讨论要点和决策\n- 行动项和责任人\n\n### 项目模板\n**文件**: [[项目模板.md]]\n**用途**: 项目全生命周期管理\n**核心结构**:\n- 项目背景和目标\n- 范围和交付物\n- 项目计划和时间线\n- 团队分工和职责","x":400,"y":200,"width":280,"height":220,"color":"2"},
+		{"id":"plugin-config","type":"text","text":"## 🔌 插件配置\n\n### 核心插件\n\n#### Tasks插件\n**功能**: 任务管理和跟踪\n**配置要求**:\n- 自动完成链接: 启用\n- 显示截止日期: 启用\n- 支持自定义元数据: 启用\n\n#### Dataview插件\n**功能**: 数据查询和可视化\n**配置要求**:\n- 启用JavaScript查询: 启用\n- 启用内联字段解析: 启用\n- 刷新间隔: 1000ms\n\n#### Templater插件\n**功能**: 模板生成和自动化\n**配置要求**:\n- JavaScript支持: 启用\n- 模板文件夹: 99 - SYSTEM/Templates\n\n### 插件协同工作\n- **Tasks + Dataview**: 任务数据查询和展示\n- **Templater + Tasks**: 自动任务生成\n- **Canvas + Dataview**: 可视化数据展示","x":700,"y":200,"width":280,"height":220,"color":"3"},
+		{"id":"file-organization","type":"text","text":"## 📁 文件组织\n\n### 文件夹结构\n\n#### 00 - INBOX\n- **用途**: 信息收集中心\n- **文件类型**: 待处理信息、临时笔记\n- **处理规则**: 每日清空，及时分类\n\n#### 10 - COCKPIT\n- **用途**: 每日工作指挥中心\n- **文件类型**: 每日笔记、任务管理\n- **关键文件**: My Command Center\n\n#### 20 - ATOMS\n- **用途**: 原子化知识库\n- **文件类型**: 概念、模型、人物、来源\n- **子目录**: Concepts、Models、People、Sources\n\n#### 30 - INCUBATOR\n- **用途**: 洞察孵化器\n- **文件类型**: MOC、Canvas、思考笔记\n- **子目录**: MOCs、Canvases\n\n#### 40 - OPERATIONS\n- **用途**: 项目管理中心\n- **文件类型**: 项目文档、会议记录\n- **子目录**: Projects、Meetings\n\n#### 99 - SYSTEM\n- **用途**: 系统配置中心\n- **文件类型**: 模板、配置、附件\n- **子目录**: Templates、Attachments","x":100,"y":460,"width":280,"height":280,"color":"4"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"title","fromSide":"bottom","toNode":"templates-overview","toSide":"top","color":"6"},
+		{"id":"e2","fromNode":"title","fromSide":"bottom","toNode":"key-templates","toSide":"top","color":"6"},
+		{"id":"e3","fromNode":"title","fromSide":"bottom","toNode":"plugin-config","toSide":"top","color":"6"},
+		{"id":"e4","fromNode":"templates-overview","fromSide":"bottom","toNode":"file-organization","toSide":"top","color":"1"},
+		{"id":"e5","fromNode":"key-templates","fromSide":"bottom","toNode":"plugin-config","toSide":"top","color":"2"}
+	]
+}

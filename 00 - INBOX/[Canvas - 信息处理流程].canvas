@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"title","type":"text","text":"# 📥 信息处理流程\n\n**INBOX → ATOMS 标准化工作流**\n\n*从信息收集到原子化知识的完整转化过程*","x":400,"y":50,"width":500,"height":100,"color":"6"},
+		{"id":"inbox-collection","type":"text","text":"## 📥 信息收集\n\n### 收集渠道\n- **外部输入**: 文章、视频、对话\n- **内部思考**: 灵感、想法、复盘\n- **工作相关**: 会议、项目、任务\n- **学习内容**: 课程、教程、文档\n\n### 收集原则\n1. **统一入口**: 所有信息先进入INBOX\n2. **快速记录**: 不加工，直接保存\n3. **标记来源**: 记录信息来源和背景\n4. **时间戳**: 自动添加创建时间","x":-100,"y":200,"width":280,"height":220,"color":"1"},
+		{"id":"ai-argument-processing","type":"text","text":"## 🤖 AI论点处理\n\n### AI内容处理流程\n\n#### Phase 1: 核心议题创建\n使用 **核心议题模板**:\n- 拆解AI的多个论点\n- 明确核心问题和背景\n- 建立初步思考框架\n\n#### Phase 2: 深度质询\n对每个论点创建 **论点质询模板**:\n- 质疑AI观点的适用性\n- 分析实际应用场景\n- 评估潜在风险和机会\n\n#### Phase 3: 思维碰撞\n创建 **思维碰撞Canvas**:\n- 可视化论点间关系\n- 分析风险和机会\n- 生成具体行动项\n\n### 关键原则\n- **绝不直接粘贴**: 必须经过深度处理\n- **场景化思考**: 关联到具体工作场景\n- **批判性质询**: 质疑每个观点的适用性\n- **行动导向**: 每个洞察都要有行动项","x":-100,"y":480,"width":280,"height":280,"color":"4"},
+		{"id":"daily-processing","type":"text","text":"## 🔄 每日处理\n\n### 处理时间\n- **最佳时间**: 每日固定时间段\n- **建议时长**: 30-45分钟\n- **处理频率**: 每日必清空\n\n### 处理步骤\n1. **快速浏览**: 了解当日收集内容\n2. **分类判断**: 识别信息类型和价值\n3. **优先级排序**: 重要信息优先处理\n4. **批量处理**: 相同类型信息集中处理\n\n### 处理标准\n- **当日清空**: INBOX必须每日清空\n- **零积压**: 不允许信息过夜\n- **完整处理**: 每条信息都要有去向\n- **质量保证**: 确保信息转化质量","x":300,"y":240,"width":250,"height":220,"color":"2"},
+		{"id":"atom-transformation","type":"text","text":"## ⚛️ 原子化转化\n\n### 什么是原子化？\n将复杂信息分解为最小知识单元，每个单元都是独立、完整、可链接的知识点。\n\n### 原子化标准\n- **单一主题**: 一个笔记只讲一个主题\n- **完整自洽**: 包含必要背景和上下文\n- **双向链接**: 与相关知识点建立链接\n- **标准化格式**: 使用统一的模板格式\n\n### 转化方法\n1. **主题提取**: 识别核心主题\n2. **内容拆解**: 分解为独立知识点\n3. **模板应用**: 使用标准化模板\n4. **链接建立**: 创建双向关联\n5. **标签分类**: 添加合适的标签","x":740,"y":200,"width":250,"height":220,"color":"3"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"title","fromSide":"bottom","toNode":"inbox-collection","toSide":"top","color":"6"},
+		{"id":"e2","fromNode":"title","fromSide":"bottom","toNode":"daily-processing","toSide":"top","color":"6"},
+		{"id":"e3","fromNode":"title","fromSide":"bottom","toNode":"atom-transformation","toSide":"top","color":"6"},
+		{"id":"e4","fromNode":"inbox-collection","fromSide":"bottom","toNode":"ai-argument-processing","toSide":"top","color":"1"},
+		{"id":"e5","fromNode":"daily-processing","fromSide":"right","toNode":"atom-transformation","toSide":"left","color":"2"}
+	]
+}

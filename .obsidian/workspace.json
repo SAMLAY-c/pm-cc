@@ -11,17 +11,14 @@
             "id": "bcd83d0ad72c1e5e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas",
-                "viewState": {
-                  "x": 680.8125812344397,
-                  "y": 479.606375934669,
-                  "zoom": -0.84793585250775
-                }
+                "file": "20 - ATOMS/沟通技巧/让对话持续以达成共识.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "超级沟通者对话模型"
+              "icon": "lucide-file",
+              "title": "让对话持续以达成共识"
             }
           }
         ]
@@ -81,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "4a5b0fa07d38d3cc",
@@ -177,6 +173,28 @@
   },
   "active": "bcd83d0ad72c1e5e",
   "lastOpenFiles": [
+    "20 - ATOMS/沟通技巧/不会说话反而更受欢迎 - 揭秘《超级沟通者》.md",
+    "20 - ATOMS/沟通技巧/MOC - 超级沟通者对话模型.md",
+    "10 - COCKPIT/[Canvas - 我的战略指挥中心].canvas",
+    "10 - COCKPIT/My Command Center.md",
+    "10 - COCKPIT/今日任务示例.md",
+    "10 - COCKPIT/Daily/2025-09-01.md",
+    "10 - COCKPIT/Daily/2025-09-02.md",
+    "00 - INBOX/[Canvas - 信息处理流程].canvas",
+    "30 - INCUBATOR/Canvases/LLM基础知识与论文解析.canvas",
+    "30 - INCUBATOR/Canvases/B站AI大模型教程分析.canvas",
+    "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas",
+    "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
+    "30 - INCUBATOR/Canvases/[主控台 - 知识库总览].canvas",
+    "99 - SYSTEM/[Canvas - 系统配置导航].canvas",
+    "00 - INBOX/[Canvas - 信息处理流程].canvas.tmp.62567.1757156123275",
+    "快速访问导航.md",
+    "30 - INCUBATOR/Canvases/[主控台 - 知识库总览].canvas.tmp.62567.1757156026939",
+    "99 - SYSTEM/Templates/PRD模板.md",
+    "99 - SYSTEM/Templates/项目模板.md",
+    "30 - INCUBATOR/MOCs/MOC - 产品经理能力模型.md",
+    "快速访问导航.md.tmp.62567.1757155893440",
+    "40 - OPERATIONS/[Canvas - 项目管理看板].canvas",
     "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas.tmp.62567.1757153184064",
     "20 - ATOMS/沟通技巧/倾听：通过重复总结达成共情.md",
     "20 - ATOMS/沟通技巧/匹配对话类型.md",
@@ -187,8 +205,6 @@
     "20 - ATOMS/沟通技巧/提问：从浅层事实到深层价值观.md",
     "20 - ATOMS/沟通技巧/示弱：暴露脆弱性以建立深度链接.md.tmp.62567.1757152519851",
     "20 - ATOMS/沟通技巧/提问：从浅层事实到深层价值观.md.tmp.62567.1757152513585",
-    "20 - ATOMS/沟通技巧/MOC - 超级沟通者对话模型.md",
-    "20 - ATOMS/沟通技巧/不会说话反而更受欢迎 - 揭秘《超级沟通者》.md",
     "20 - ATOMS/沟通技巧/MOC - 超级沟通者对话模型.md.tmp.62567.1757152465834",
     "20 - ATOMS/沟通技巧/沟通的意义：从弱到强的自我实现.md",
     "20 - ATOMS/沟通技巧/社交类对话：挖掘与确认多重身份.md",
@@ -197,31 +213,10 @@
     "20 - ATOMS/沟通技巧/大笑：用非语言信号打破社交壁垒.md",
     "20 - ATOMS/沟通技巧/鼓励：在示弱后抬高对方以建立信任.md",
     "20 - ATOMS/沟通技巧/示弱：暴露脆弱性以建立深度链接.md",
-    "30 - INCUBATOR/Canvases/超级沟通者对话模型.canvas",
     "20 - ATOMS/沟通技巧",
     "20 - ATOMS/Concepts/沟通的意义：从弱到强的自我实现.md",
-    "20 - ATOMS/Concepts/沟通的意义：从弱到强的自我实现.md.tmp.62567.1757152252738",
     "20 - ATOMS/Concepts/倾听：通过重复总结达成共情.md",
     "20 - ATOMS/Concepts/社交类对话：挖掘与确认多重身份.md",
-    "20 - ATOMS/Concepts/务实类对话：解决问题与制定计划.md",
-    "20 - ATOMS/Concepts/匹配对话类型.md",
-    "20 - ATOMS/Concepts/匹配对话类型.md.tmp.62567.1757152119177",
-    "20 - ATOMS/Concepts/词汇表映射 (Vocabulary Mapping).md",
-    "20 - ATOMS/Concepts/能力卡：信息架构.md",
-    "20 - ATOMS/Concepts/让对话持续以达成共识.md",
-    "20 - ATOMS/Concepts/大笑：用非语言信号打破社交壁垒.md",
-    "20 - ATOMS/Concepts/鼓励：在示弱后抬高对方以建立信任.md",
-    "20 - ATOMS/Concepts/示弱：暴露脆弱性以建立深度链接.md",
-    "20 - ATOMS/Concepts/倾听：通过重复总结达成共情.md.tmp.62567.1757152000874",
-    "20 - ATOMS/Metaphors",
-    "30 - INCUBATOR/Canvases/LLM基础知识与论文解析.canvas",
-    "30 - INCUBATOR/Canvases/[Canvas - 公司完整组织架构图].canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转型全攻略.canvas",
-    "30 - INCUBATOR/Canvases/日程管理.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转行学习路径.canvas",
-    "30 - INCUBATOR/Canvases/B站AI大模型教程分析.canvas",
-    "AI产品经理转行学习路径.canvas",
-    "30 - INCUBATOR/Canvases/1.canvas",
-    "30 - INCUBATOR/Canvases/AI产品经理转行学习计划-simple.canvas"
+    "30 - INCUBATOR/Canvases/AI产品经理转型全攻略.canvas"
   ]
 }
