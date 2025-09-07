@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"social-media-goal","type":"text","text":"社交媒体运营目标\n• 公众号：500粉丝\n• B站：500粉丝\n• 小红书：500粉丝\n• 领英：500粉丝\n• X(Twitter)：500粉丝\n• Reddit：500粉丝","x":400,"y":-80,"width":220,"height":180,"color":"4"},
+		{"id":"fitness-goal","type":"text","text":"身材目标\n• 变帅/变白\n• 脸上没痘痘\n• 有腹肌\n• 牙齿变白\n• 变持久","x":400,"y":125,"width":200,"height":120,"color":"1"},
+		{"id":"monthly-plan","type":"text","text":"月度计划分解\n• 第1月：基础建立\n• 第2月：习惯养成\n• 第3月：成果巩固\n• 每周复盘调整","x":780,"y":200,"width":220,"height":120,"color":"5"},
+		{"id":"tracking-system","type":"text","text":"进度追踪系统\n• 每日打卡记录\n• 每周目标完成度\n• 每月成果展示\n• 动态调整优化","x":1090,"y":95,"width":220,"height":150,"color":"7"},
+		{"id":"internship-goal","type":"text","text":"实习目标\n• 每天认真完成实习\n• 打好产品经理基本功\n• AIPM面试准备\n• 积累实战经验","x":400,"y":310,"width":200,"height":150,"color":"2"},
+		{"id":"study-goal","type":"text","text":"学习目标\n• 考研数学过一遍\n• 英语过一遍\n• 政治过一遍\n• 专业课过一遍\n• 建立知识体系","x":400,"y":500,"width":220,"height":180,"color":"3"},
+		{"id":"core-goal","type":"text","text":"3个月全面升级计划\n2025年Q3目标设定","x":60,"y":195,"width":250,"height":100,"color":"6"}
+	],
+	"edges":[
+		{"id":"edge1","fromNode":"core-goal","fromSide":"right","toNode":"fitness-goal","toSide":"left","label":"分解"},
+		{"id":"edge2","fromNode":"core-goal","fromSide":"right","toNode":"internship-goal","toSide":"left","label":"分解"},
+		{"id":"edge3","fromNode":"core-goal","fromSide":"right","toNode":"study-goal","toSide":"left","label":"分解"},
+		{"id":"edge4","fromNode":"core-goal","fromSide":"right","toNode":"social-media-goal","toSide":"left","label":"分解"},
+		{"id":"edge5","fromNode":"fitness-goal","fromSide":"right","toNode":"monthly-plan","toSide":"left","label":"规划"},
+		{"id":"edge6","fromNode":"internship-goal","fromSide":"right","toNode":"monthly-plan","toSide":"left","label":"规划"},
+		{"id":"edge11","fromNode":"tracking-system","fromSide":"left","toNode":"monthly-plan","toSide":"right","label":"反馈"}
+	]
+}
