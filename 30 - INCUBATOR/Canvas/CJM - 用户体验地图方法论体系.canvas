@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"process","type":"text","text":"Ⅱ. 核心流程与实践\n\n• CJM案例研究：电影票小程序转化率优化\n• CJM速成法：48小时突击流程","x":300,"y":250,"width":250,"height":130,"color":"1"},
+		{"id":"scenarios","type":"text","text":"Ⅲ. 场景化应用\n\n• CJM模板：0-1新功能冷启动\n• CJM模板：成熟产品降本增效\n• CJM模板：O2O全链路分析","x":600,"y":250,"width":200,"height":100,"color":"1"},
+		{"id":"pitfalls","type":"text","text":"Ⅳ. 避坑与进阶\n\n• CJM的10个常见踩坑点\n• CJM进阶：构建可计算的ROI模型","x":850,"y":250,"width":200,"height":100,"color":"1"},
+		{"id":"core-framework","type":"text","text":"CJM的核心骨架\n时间轴 x 5层信息\n\n• 行为 (Doing)\n• 想法 (Thinking)\n• 情绪 (Feeling)\n• 触点 (Touchpoint)\n• 痛点/机会 (Pain/Opp)","x":-100,"y":440,"width":360,"height":210,"color":"2"},
+		{"id":"foundation","type":"text","text":"Ⅰ. 基础理论与架构\n\n• CJM的核心骨架：时间轴 x 5层信息","x":-70,"y":250,"width":300,"height":100,"color":"1"},
+		{"id":"case-study","type":"text","text":"电影票小程序案例\n\n• DAU 80万，转化率从21%→17%\n• 通过CJM分析定位核心痛点\n• 两周内转化率提升至22.1%","x":300,"y":440,"width":250,"height":200,"color":"2"},
+		{"id":"source","type":"text","text":"原始材料\n用户体验地图CJM从理论到落地 (原文)","x":320,"y":1000,"width":340,"height":100,"color":"7"},
+		{"id":"fast-track","type":"text","text":"48小时突击流程\n\nDay 1: 发现问题\n• 组建突击队\n• 数据分析+用户回访\n• 绘制CJM\n\nDay 2: 解决问题\n• 机会点排序\n• 汇报决策","x":40,"y":820,"width":260,"height":270,"color":"3"},
+		{"id":"template-01","type":"text","text":"0-1新功能冷启动\n\n• 反向推演理想状态\n• 识别风险点\n• 定义MVP功能范围","x":600,"y":435,"width":200,"height":145,"color":"2"},
+		{"id":"template-02","type":"text","text":"成熟产品降本增效\n\n• 数据驱动分析\n• 业务损失量化\n• ROI说服决策","x":1050,"y":435,"width":230,"height":145,"color":"2"},
+		{"id":"template-03","type":"text","text":"O2O全链路分析\n\n• 触点五分类\n• 数字/物理/人际\n• 系统/政策触点","x":490,"y":840,"width":200,"height":140,"color":"3"},
+		{"id":"roi-model","type":"text","text":"可计算的ROI模型\n\n• 情绪数据化\n• 问题自动化预警\n• 价值模型化\n• 决策自动化","x":700,"y":980,"width":230,"height":165,"color":"5"},
+		{"id":"common-pitfalls","type":"text","text":"10个常见踩坑点\n\n• 角色vs细分混淆\n• 脑补vs真实\n• 一次性vs活文档\n• 忽视内部用户\n• PPT作画","x":900,"y":710,"width":230,"height":200,"color":"4"},
+		{"id":"moc-cjm","type":"text","text":"MOC - 用户体验地图 (CJM) 方法论\n\n核心启发来源：用户体验地图CJM从理论到落地 (原文)\n核心思想：用户体验地图不是“画图”，而是把“用户真实故事”变成“可落地的商业项目”","x":110,"y":-20,"width":790,"height":120,"color":"6"}
+	],
+	"edges":[
+		{"id":"edge-1","fromNode":"moc-cjm","fromSide":"bottom","toNode":"foundation","toSide":"top","label":"包含"},
+		{"id":"edge-2","fromNode":"moc-cjm","fromSide":"bottom","toNode":"process","toSide":"top","label":"包含"},
+		{"id":"edge-3","fromNode":"moc-cjm","fromSide":"bottom","toNode":"scenarios","toSide":"top","label":"包含"},
+		{"id":"edge-4","fromNode":"moc-cjm","fromSide":"bottom","toNode":"pitfalls","toSide":"top","label":"包含"},
+		{"id":"edge-5","fromNode":"foundation","fromSide":"bottom","toNode":"core-framework","toSide":"top","label":"展开"},
+		{"id":"edge-6","fromNode":"process","fromSide":"bottom","toNode":"case-study","toSide":"top","label":"案例"},
+		{"id":"edge-7","fromNode":"process","fromSide":"bottom","toNode":"fast-track","toSide":"top","label":"流程"},
+		{"id":"edge-8","fromNode":"scenarios","fromSide":"bottom","toNode":"template-01","toSide":"top","label":"模板"},
+		{"id":"edge-9","fromNode":"scenarios","fromSide":"bottom","toNode":"template-02","toSide":"top","label":"模板"},
+		{"id":"edge-10","fromNode":"scenarios","fromSide":"bottom","toNode":"template-03","toSide":"top","label":"模板"},
+		{"id":"edge-11","fromNode":"pitfalls","fromSide":"bottom","toNode":"common-pitfalls","toSide":"top","label":"避坑"},
+		{"id":"edge-12","fromNode":"pitfalls","fromSide":"bottom","toNode":"roi-model","toSide":"top","label":"进阶"},
+		{"id":"edge-13","fromNode":"moc-cjm","fromSide":"bottom","toNode":"source","toSide":"top","label":"来源"}
+	]
+}
