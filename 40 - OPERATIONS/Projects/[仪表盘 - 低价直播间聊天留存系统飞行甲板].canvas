@@ -1,148 +1,21 @@
 {
-  "nodes": [
-    {
-      "id": "prd-center",
-      "x": 400,
-      "y": 300,
-      "width": 500,
-      "height": 400,
-      "color": "1",
-      "file": "40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD",
-      "type": "file"
-    },
-    {
-      "id": "task-engine",
-      "x": 1000,
-      "y": 200,
-      "width": 450,
-      "height": 600,
-      "color": "2",
-      "text": "## 📈 任务引擎\n\n### 关键任务模块\n\n```dataviewjs\n// 自动抓取所有链接到PRD文档的未完成任务\ndv.taskList(dv.pages('\"40 - OPERATIONS\"')\n    .file.tasks\n    .where(t => !t.completed && t.text.includes(\"[[低价直播间聊天留存系统 - PRD]]\"))\n    .sort(t => t.due || \"zzzz\", 'asc'), \n    false)\n```\n\n### 任务格式规范\n\n为了被自动抓取，任务需要使用以下格式：\n\n```markdown\n- [ ] 任务描述 📅 YYYY-MM-DD priority:: high/medium/low  проекта [[低价直播间聊天留存系统 - PRD]]\n```\n\n### 本周任务概览\n\n```dataviewjs\nconst today = dv.date('now');\nconst weekStart = today.minusDays(today.weekday);\nconst weekEnd = weekStart.plusDays(6);\n\nconst weekTasks = dv.pages()\n    .file.tasks\n    .where(t => !t.completed && t.due && \n        t.due >= weekStart && t.due <= weekEnd &&\n        t.text.includes(\"[[低价直播间聊天留存系统 - PRD]]\"));\n\nif (weekTasks.length > 0) {\n    dv.header(3, '📅 本周项目任务 (' + weekTasks.length + ')');\n    dv.taskList(weekTasks.sort(t => t.due), false);\n} else {\n    dv.paragraph('📝 本周暂无项目任务');\n}\n```",
-      "type": "text"
-    },
-    {
-      "id": "decision-center",
-      "x": 50,
-      "y": 200,
-      "width": 300,
-      "height": 400,
-      "color": "3",
-      "text": "## 📊 决策中心\n\n### 决策日志\n\n```dataview\n// 自动抓取所有与项目相关的会议决策\nTABLE decision as \"决策点\", date as \"决策日期\"\nFROM \"40 - OPERATIONS/Meetings\"\nWHERE contains(file.inlinks, [[低价直播间聊天留存系统 - PRD]]) AND decision\nSORT date DESC\n```\n\n### 相关会议\n\n```dataview\n// 显示所有相关会议\nTABLE date as \"会议日期\", participants as \"参会人员\"\nFROM \"40 - OPERATIONS/Meetings\"\nWHERE contains(file.inlinks, [[低价直播间聊天留存系统 - PRD]])\nSORT date DESC\nLIMIT 5\n```",
-      "type": "text"
-    },
-    {
-      "id": "stakeholders",
-      "x": 200,
-      "y": 750,
-      "width": 400,
-      "height": 300,
-      "color": "4",
-      "text": "## 👥 关键人物\n\n### 项目负责人\n- **产品经理**: [[林承列]]\n  - 负责：产品规划和需求管理\n  - 联系方式：xxx@company.com\n\n### 技术团队\n- **技术负责人**: [待指定]\n  - 负责：技术方案和开发管理\n\n### 设计团队\n- **设计负责人**: [待指定]\n  - 负责：用户体验和界面设计\n\n### 业务方\n- **辅导老师**: [待确认]\n  - 负责：需求提出和用户反馈\n\n### 相关人员\n- [[徐威 A]] - 相关协作人员",
-      "type": "text"
-    },
-    {
-      "id": "risk-radar",
-      "x": 650,
-      "y": 50,
-      "width": 350,
-      "height": 200,
-      "color": "5",
-      "text": "## ⚠️ 风险雷达\n\n### 技术风险\n- [ ] 需要确认导出范围等技术细节\n- [ ] 可能影响现有系统性能\n\n### 业务风险\n- [ ] 需要确认课中导出等业务细节\n- [ ] 用户体验变化带来的适应成本\n\n### 时间风险\n- [ ] MVP版本开发时间评估\n\n### 资源风险\n- [ ] 技术资源分配确认",
-      "type": "text"
-    },
-    {
-      "id": "project-status",
-      "x": 650,
-      "y": 750,
-      "width": 400,
-      "height": 300,
-      "color": "6",
-      "text": "## 📊 项目状态\n\n### 项目概览\n\n```dataview\n// 项目状态概览\nTABLE status as \"状态\", priority as \"优先级\", due as \"截止日期\"\nFROM \"40 - OPERATIONS/Projects\"\nWHERE contains(file.name, \"低价直播间聊天留存系统\")\n```\n\n### 当前进度\n- **当前阶段**: 需求确认阶段\n- **完成度**: 10%\n- **下一步**: 技术方案设计\n\n### 里程碑\n- [x] 需求文档完成\n- [ ] 技术方案设计\n- [ ] 聊天记录监听功能开发\n- [ ] 导出功能开发\n- [ ] 测试和上线",
-      "type": "text"
-    },
-    {
-      "id": "quick-links",
-      "x": 1100,
-      "y": 750,
-      "width": 300,
-      "height": 200,
-      "color": "1",
-      "text": "## 🔗 快速链接\n\n- [[低价直播间聊天留存系统]] - 项目主页\n- [[低价直播间聊天留存系统 - PRD]] - PRD文档\n- [[2025-09-01]] - 今日笔记\n- [[My Command Center]] - 指挥中心\n\n> 💡 **提示**: 所有数据实时更新，每天查看项目状态",
-      "type": "text"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e1",
-      "fromNode": "prd-center",
-      "fromSide": "right",
-      "toNode": "task-engine",
-      "toSide": "left",
-      "color": "1",
-      "label": "任务驱动"
-    },
-    {
-      "id": "e2",
-      "fromNode": "prd-center",
-      "fromSide": "left",
-      "toNode": "decision-center",
-      "toSide": "right",
-      "color": "1",
-      "label": "决策依据"
-    },
-    {
-      "id": "e3",
-      "fromNode": "prd-center",
-      "fromSide": "bottom",
-      "toNode": "stakeholders",
-      "toSide": "top",
-      "color": "1",
-      "label": "团队支持"
-    },
-    {
-      "id": "e4",
-      "fromNode": "prd-center",
-      "fromSide": "top",
-      "toNode": "risk-radar",
-      "toSide": "bottom",
-      "color": "1",
-      "label": "风险监控"
-    },
-    {
-      "id": "e5",
-      "fromNode": "prd-center",
-      "fromSide": "bottom-right",
-      "toNode": "project-status",
-      "toSide": "top-left",
-      "color": "1",
-      "label": "状态跟踪"
-    },
-    {
-      "id": "e6",
-      "fromNode": "task-engine",
-      "fromSide": "bottom",
-      "toNode": "quick-links",
-      "toSide": "top",
-      "color": "2",
-      "label": "快速访问"
-    },
-    {
-      "id": "e7",
-      "fromNode": "decision-center",
-      "fromSide": "bottom",
-      "toNode": "stakeholders",
-      "toSide": "left",
-      "color": "3",
-      "label": "人员参与"
-    },
-    {
-      "id": "e8",
-      "fromNode": "risk-radar",
-      "fromSide": "bottom",
-      "toNode": "project-status",
-      "toSide": "top",
-      "color": "5",
-      "label": "影响评估"
-    }
-  ]
+	"nodes":[
+		{"id":"prd-center","x":400,"y":300,"width":500,"height":400,"color":"1","file":"40 - OPERATIONS/Projects/低价直播间聊天留存系统 - PRD","type":"file"},
+		{"id":"task-engine","x":1000,"y":200,"width":450,"height":600,"color":"2","text":"## 📈 任务引擎\n\n### 关键任务模块\n\n```dataviewjs\n// 自动抓取所有链接到PRD文档的未完成任务\ndv.taskList(dv.pages('\"40 - OPERATIONS\"')\n    .file.tasks\n    .where(t => !t.completed && t.text.includes(\"[[低价直播间聊天留存系统 - PRD]]\"))\n    .sort(t => t.due || \"zzzz\", 'asc'), \n    false)\n```\n\n### 任务格式规范\n\n为了被自动抓取，任务需要使用以下格式：\n\n```markdown\n- [ ] 任务描述 📅 YYYY-MM-DD priority:: high/medium/low  проекта [[低价直播间聊天留存系统 - PRD]]\n```\n\n### 本周任务概览\n\n```dataviewjs\nconst today = dv.date('now');\nconst weekStart = today.minusDays(today.weekday);\nconst weekEnd = weekStart.plusDays(6);\n\nconst weekTasks = dv.pages()\n    .file.tasks\n    .where(t => !t.completed && t.due && \n        t.due >= weekStart && t.due <= weekEnd &&\n        t.text.includes(\"[[低价直播间聊天留存系统 - PRD]]\"));\n\nif (weekTasks.length > 0) {\n    dv.header(3, '📅 本周项目任务 (' + weekTasks.length + ')');\n    dv.taskList(weekTasks.sort(t => t.due), false);\n} else {\n    dv.paragraph('📝 本周暂无项目任务');\n}\n```","type":"text"},
+		{"id":"decision-center","x":50,"y":200,"width":300,"height":400,"color":"3","text":"## 📊 决策中心\n\n### 决策日志\n\n```dataview\n// 自动抓取所有与项目相关的会议决策\nTABLE decision as \"决策点\", date as \"决策日期\"\nFROM \"40 - OPERATIONS/Meetings\"\nWHERE contains(file.inlinks, [[低价直播间聊天留存系统 - PRD]]) AND decision\nSORT date DESC\n```\n\n### 相关会议\n\n```dataview\n// 显示所有相关会议\nTABLE date as \"会议日期\", participants as \"参会人员\"\nFROM \"40 - OPERATIONS/Meetings\"\nWHERE contains(file.inlinks, [[低价直播间聊天留存系统 - PRD]])\nSORT date DESC\nLIMIT 5\n```","type":"text"},
+		{"id":"stakeholders","x":200,"y":750,"width":400,"height":300,"color":"4","text":"## 👥 关键人物\n\n### 项目负责人\n- **产品经理**: [[林承列]]\n  - 负责：产品规划和需求管理\n  - 联系方式：xxx@company.com\n\n### 技术团队\n- **技术负责人**: [待指定]\n  - 负责：技术方案和开发管理\n\n### 设计团队\n- **设计负责人**: [待指定]\n  - 负责：用户体验和界面设计\n\n### 业务方\n- **辅导老师**: [待确认]\n  - 负责：需求提出和用户反馈\n\n### 相关人员\n- [[徐威 A]] - 相关协作人员","type":"text"},
+		{"id":"risk-radar","x":650,"y":50,"width":350,"height":200,"color":"5","text":"## ⚠️ 风险雷达\n\n### 技术风险\n- [ ] 需要确认导出范围等技术细节\n- [ ] 可能影响现有系统性能\n\n### 业务风险\n- [ ] 需要确认课中导出等业务细节\n- [ ] 用户体验变化带来的适应成本\n\n### 时间风险\n- [ ] MVP版本开发时间评估\n\n### 资源风险\n- [ ] 技术资源分配确认","type":"text"},
+		{"id":"project-status","x":650,"y":750,"width":400,"height":300,"color":"6","text":"## 📊 项目状态\n\n### 项目概览\n\n```dataview\n// 项目状态概览\nTABLE status as \"状态\", priority as \"优先级\", due as \"截止日期\"\nFROM \"40 - OPERATIONS/Projects\"\nWHERE contains(file.name, \"低价直播间聊天留存系统\")\n```\n\n### 当前进度\n- **当前阶段**: 需求确认阶段\n- **完成度**: 10%\n- **下一步**: 技术方案设计\n\n### 里程碑\n- [x] 需求文档完成\n- [ ] 技术方案设计\n- [ ] 聊天记录监听功能开发\n- [ ] 导出功能开发\n- [ ] 测试和上线","type":"text"},
+		{"id":"quick-links","x":1100,"y":750,"width":300,"height":200,"color":"1","text":"## 🔗 快速链接\n\n- [[低价直播间聊天留存系统]] - 项目主页\n- [[低价直播间聊天留存系统 - PRD]] - PRD文档\n- [[2025-09-01]] - 今日笔记\n- [[My Command Center]] - 指挥中心\n\n> 💡 **提示**: 所有数据实时更新，每天查看项目状态","type":"text"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"prd-center","fromSide":"right","toNode":"task-engine","toSide":"left","color":"1","label":"任务驱动"},
+		{"id":"e2","fromNode":"prd-center","fromSide":"left","toNode":"decision-center","toSide":"right","color":"1","label":"决策依据"},
+		{"id":"e3","fromNode":"prd-center","fromSide":"bottom","toNode":"stakeholders","toSide":"top","color":"1","label":"团队支持"},
+		{"id":"e4","fromNode":"prd-center","fromSide":"top","toNode":"risk-radar","toSide":"bottom","color":"1","label":"风险监控"},
+		{"id":"e5","fromNode":"prd-center","fromSide":"bottom-right","toNode":"project-status","toSide":"top-left","color":"1","label":"状态跟踪"},
+		{"id":"e6","fromNode":"task-engine","fromSide":"bottom","toNode":"quick-links","toSide":"top","color":"2","label":"快速访问"},
+		{"id":"e7","fromNode":"decision-center","fromSide":"bottom","toNode":"stakeholders","toSide":"left","color":"3","label":"人员参与"},
+		{"id":"e8","fromNode":"risk-radar","fromSide":"bottom","toNode":"project-status","toSide":"top","color":"5","label":"影响评估"}
+	]
 }
